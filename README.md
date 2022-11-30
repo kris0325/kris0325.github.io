@@ -1,2 +1,4 @@
-# kris0325.github.io
-profile
+# kris
+## email:ywkwhu@163.com 
+## education
+## work experience
