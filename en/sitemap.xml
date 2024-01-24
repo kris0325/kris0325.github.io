@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/p/hello-world/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -23,32 +23,8 @@
                 href="https://example.com/"
                 />
   </url><url>
-    <loc>https://example.com/p/image-gallery/</loc>
-    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
-  </url><url>
-    <loc>https://example.com/p/shortcodes/</loc>
-    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -65,14 +41,29 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
-    <loc>https://example.com/categories/example-category/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/hugo-blog/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/example-tag/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/"
+                />
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -88,6 +79,15 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
+  </url><url>
+    <loc>https://example.com/categories/tool/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/image-gallery/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/shortcodes/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -182,6 +182,8 @@
                 hreflang="en"
                 href="https://example.com/about/"
                 />
+  </url><url>
+    <loc>https://example.com/categories/example-category/</loc>
   </url><url>
     <loc>https://example.com/links/</loc>
   </url><url>
