@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/p/hong-kong-memories/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/hello-world/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,11 +17,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://example.com/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -38,14 +36,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://example.com/categories/"
                 />
+  </url><url>
+    <loc>https://example.com/categories/hong-kong/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/hugo-blog/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
@@ -56,11 +52,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://example.com/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -77,14 +68,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
+  </url><url>
+    <loc>https://example.com/tags/travel/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/leetcode/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
@@ -135,39 +124,22 @@
     <loc>https://example.com/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/p/placeholder-text/"
-                />
-  </url><url>
-    <loc>https://example.com/tags/tag-with-whitespaces/</loc>
+    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/test/"
-                />
-  </url><url>
-    <loc>https://example.com/categories/test-with-whitespaces/</loc>
+    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/text/</loc>
+    <loc>https://example.com/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%D9%86%D8%B5/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/p/math-typesetting/</loc>
@@ -178,6 +150,19 @@
   </url><url>
     <loc>https://example.com/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/test/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/zh-cn/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/categories/test/"
+                />
   </url><url>
     <loc>https://example.com/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>

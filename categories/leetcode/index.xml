@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>leetcode on Example Site</title>
+        <title>leetcode on thatkrisyang</title>
         <link>https://example.com/categories/leetcode/</link>
-        <description>Recent content in leetcode on Example Site</description>
+        <description>Recent content in leetcode on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>Example Person</copyright>
+        <copyright>thatkrisyang</copyright>
         <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/leetcode/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>90.subsets-ii</title>
         <link>https://example.com/p/90.subsets-ii/</link>
