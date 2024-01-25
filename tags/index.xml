@@ -7,7 +7,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>combination</title>
+        <link>https://example.com/tags/combination/</link>
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/combination/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>combinations</title>
+        <link>https://example.com/tags/combinations/</link>
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/combinations/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>subsets</title>
+        <link>https://example.com/tags/subsets/</link>
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/subsets/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>hugo blog</title>
         <link>https://example.com/tags/hugo-blog/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
@@ -21,14 +45,6 @@
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/travel/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>subsets</title>
-        <link>https://example.com/tags/subsets/</link>
-        <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/subsets/</guid>
         <description></description>
         </item>
         <item>
@@ -61,30 +77,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>ماركداون</title>
-        <link>https://example.com/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>نص</title>
-        <link>https://example.com/tags/%D9%86%D8%B5/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/%D9%86%D8%B5/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>وسم مع فراغات</title>
-        <link>https://example.com/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</guid>
         <description></description>
         </item>
         <item>
