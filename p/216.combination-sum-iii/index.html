@@ -2,18 +2,18 @@
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='90.subsets-ii'>
-<title>90.subsets-ii</title>
+<title>216.Combination Sum III</title>
 
-<link rel='canonical' href='https://example.com/p/90.subsets-ii/'>
+<link rel='canonical' href='https://example.com/p/216.combination-sum-iii/'>
 
-<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='90.subsets-ii'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='216.Combination Sum III'>
 <meta property='og:description' content='90.subsets-ii'>
-<meta property='og:url' content='https://example.com/p/90.subsets-ii/'>
+<meta property='og:url' content='https://example.com/p/216.combination-sum-iii/'>
 <meta property='og:site_name' content='thatkrisyang'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='subsets' /><meta property='article:published_time' content='2024-01-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/p/90.subsets-ii/90.jpg' />
-<meta name="twitter:title" content="90.subsets-ii">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='subsets' /><meta property='article:published_time' content='2024-02-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-02-27T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/p/216.combination-sum-iii/216.jpg' />
+<meta name="twitter:title" content="216.Combination Sum III">
 <meta name="twitter:description" content="90.subsets-ii"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://example.com/p/90.subsets-ii/90.jpg' />
+    <meta name="twitter:image" content='https://example.com/p/216.combination-sum-iii/216.jpg' />
     </head>
     <body class="
     article-page
@@ -250,13 +250,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/90.subsets-ii/">
-                <img src="/p/90.subsets-ii/90_hu5477be140e37c38e9e48439fae2f6b6b_7746938_800x0_resize_q75_box.jpg"
-                        srcset="/p/90.subsets-ii/90_hu5477be140e37c38e9e48439fae2f6b6b_7746938_800x0_resize_q75_box.jpg 800w, /p/90.subsets-ii/90_hu5477be140e37c38e9e48439fae2f6b6b_7746938_1600x0_resize_q75_box.jpg 1600w"
+            <a href="/p/216.combination-sum-iii/">
+                <img src="/p/216.combination-sum-iii/216_huee336b0bcb2a7652cd11fea2dee339d9_1429265_800x0_resize_q75_box.jpg"
+                        srcset="/p/216.combination-sum-iii/216_huee336b0bcb2a7652cd11fea2dee339d9_1429265_800x0_resize_q75_box.jpg 800w, /p/216.combination-sum-iii/216_huee336b0bcb2a7652cd11fea2dee339d9_1429265_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
-                        height="500" 
+                        height="484" 
                         loading="lazy"
-                        alt="Featured image of post 90.subsets-ii" />
+                        alt="Featured image of post 216.Combination Sum III" />
                 
             </a>
         </div>
@@ -275,7 +275,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/90.subsets-ii/">90.subsets-ii</a>
+            <a href="/p/216.combination-sum-iii/">216.Combination Sum III</a>
         </h2>
     
         
@@ -301,7 +301,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 23, 2024</time>
+                <time class="article-time--published">Feb 27, 2024</time>
             </div>
         
 
@@ -333,145 +333,164 @@
     
     <p>/*</p>
 <ul>
-<li>@lc app=leetcode id=90 lang=java</li>
+<li>@lc app=leetcode id=216 lang=java</li>
 <li></li>
-<li>[90] Subsets II</li>
+<li>[216] Combination Sum III</li>
 <li></li>
-<li><a class="link" href="https://leetcode.com/problems/subsets-ii/description/"  target="_blank" rel="noopener"
-    >https://leetcode.com/problems/subsets-ii/description/</a></li>
+<li><a class="link" href="https://leetcode.com/problems/combination-sum-iii/description/"  target="_blank" rel="noopener"
+    >https://leetcode.com/problems/combination-sum-iii/description/</a></li>
 <li></li>
 <li>algorithms</li>
-<li>Medium (56.68%)</li>
-<li>Likes:    9237</li>
-<li>Dislikes: 265</li>
-<li>Total Accepted:    819.4K</li>
-<li>Total Submissions: 1.4M</li>
-<li>Testcase Example:  &lsquo;[1,2,2]&rsquo;</li>
+<li>Medium (69.07%)</li>
+<li>Likes:    5799</li>
+<li>Dislikes: 107</li>
+<li>Total Accepted:    485.5K</li>
+<li>Total Submissions: 700.5K</li>
+<li>Testcase Example:  &lsquo;3\n7&rsquo;</li>
 <li></li>
-<li>Given an integer array nums that may contain duplicates, return all possible</li>
-<li>subsets (the power set).</li>
+<li>Find all valid combinations of k numbers that sum up to n such that the</li>
+<li>following conditions are true:</li>
 <li></li>
-<li>The solution set must not contain duplicate subsets. Return the solution in</li>
-<li>any order.</li>
+<li></li>
+<li>Only numbers 1 through 9 are used.</li>
+<li>Each number is used at most once.</li>
+<li></li>
+<li></li>
+<li>Return a list of all possible valid combinations. The list must not contain</li>
+<li>the same combination twice, and the combinations may be returned in any</li>
+<li>order.</li>
 <li></li>
 <li></li>
 <li>Example 1:</li>
-<li>Input: nums = [1,2,2]</li>
-<li>Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]</li>
+<li></li>
+<li></li>
+<li>Input: k = 3, n = 7</li>
+<li>Output: [[1,2,4]]</li>
+<li>Explanation:</li>
+<li>1 + 2 + 4 = 7</li>
+<li>There are no other valid combinations.</li>
+<li></li>
 <li>Example 2:</li>
-<li>Input: nums = [0]</li>
-<li>Output: [[],[0]]</li>
+<li></li>
+<li></li>
+<li>Input: k = 3, n = 9</li>
+<li>Output: [[1,2,6],[1,3,5],[2,3,4]]</li>
+<li>Explanation:</li>
+<li>1 + 2 + 6 = 9</li>
+<li>1 + 3 + 5 = 9</li>
+<li>2 + 3 + 4 = 9</li>
+<li>There are no other valid combinations.</li>
+<li></li>
+<li></li>
+<li>Example 3:</li>
+<li></li>
+<li></li>
+<li>Input: k = 4, n = 1</li>
+<li>Output: []</li>
+<li>Explanation: There are no valid combinations.</li>
+<li>Using 4 different numbers in the range [1,9], the smallest sum we can get is</li>
+<li>1+2+3+4 = 10 and since 10 &gt; 1, there are no valid combination.</li>
+<li></li>
 <li></li>
 <li></li>
 <li>Constraints:</li>
 <li></li>
 <li></li>
-<li>1 &lt;= nums.length &lt;= 10</li>
-<li>-10 &lt;= nums[i] &lt;= 10</li>
+<li>2 &lt;= k &lt;= 9</li>
+<li>1 &lt;= n &lt;= 60</li>
 <li></li>
-<li></li>
-<li></li>
-<li>Solution1 思路：使用回溯算法, 对unique数组的全排列的变种</li>
-<li>
-<pre><code> 问题拆分成 从n个元素的数组中选者k个元素的素全组合
-</code></pre>
-</li>
-<li>
-<pre><code> , 再收集所有子组合时去重即可
-</code></pre>
-</li>
-<li></li>
-<li>
-<blockquote>
-<p><a class="link" href="https://leetcode.cn/problems/subsets-ii/solutions/1/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/"  target="_blank" rel="noopener"
-    >https://leetcode.cn/problems/subsets-ii/solutions/1/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/</a></p>
-</blockquote>
-</li>
-<li>Solution2 思路：这道题目和78.子集区别就是集合里有重复元素了，而且求取的子集要去重。</li>
-<li>
-<pre><code>           1 注意去重需要先对集合排序
-</code></pre>
-</li>
-<li>
-<pre><code>           2 画出树形图，从图中可以看出，同一树层上重复取2 就要过滤掉，
-</code></pre>
-</li>
-<li>
-<pre><code>            同一树枝上就可以重复取2，因为同一树枝上元素的集合才是唯一子集！
-</code></pre>
-</li>
 </ul>
 <p>*/</p>
-<p>// @lc code=start</p>
-<p>import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-// Solution1 for循环中遍历中排序，时间复杂度太高
-class Solution1 {
-public List&lt;List<Integer>&gt; subsetsWithDup(int[] nums) {
-List&lt;List<Integer>&gt; subsets = new ArrayList&lt;&gt;();
-for(int k = 0; k&lt;= nums.length; k++){
-dfs(nums,0,k,new ArrayList&lt;&gt;(),subsets);
-} <br>
-return subsets; <br>
-}</p>
-<pre><code>public void dfs(int[] nums, int begin, int k, List&lt;Integer&gt; cur
-, List&lt;List&lt;Integer&gt;&gt; subsets ){
-    if(k == cur.size()){
-        //donnot collect dep subset
-        if(isContainTargeList(subsets, new ArrayList&lt;&gt;(cur))){
-            return;
-        }
-        subsets.add(new ArrayList&lt;&gt;(cur));
-        return;
-    }
-    for(int i =begin; i &lt;nums.length - (k - cur.size()-1); i++){
-        cur.add(nums[i]);
-        dfs(nums, i+1, k, cur, subsets);
-        cur.remove(cur.size()-1);
-    }
-}
-
-public boolean isContainTargeList(List&lt;List&lt;Integer&gt;&gt; subsets, List&lt;Integer&gt; targeList ){
-    //因为是组合，不考虑元素顺序，所有需要遍历subsets,判断是否是否包含与targeList相同的组合
-    for(int i = 0; i&lt; subsets.size();i++){
-        Collections.sort(subsets.get(i));
-        Collections.sort(targeList);
-        if(subsets.get(i).equals(targeList)){
-            return true;
-        }
-    }
-    return false;
-    
-}
-</code></pre>
-<p>}</p>
-<p>class Solution {
-List&lt;List<Integer>&gt; subsets = new ArrayList&lt;&gt;();
-List<Integer> path = new ArrayList&lt;&gt;();</p>
-<pre><code>public List&lt;List&lt;Integer&gt;&gt; subsetsWithDup(int[] nums) {
-    Arrays.sort(nums);
-    dfs(nums,0);
-    return subsets;
-}
-
-public void dfs(int[] nums, int begin){ 
-    subsets.add(new ArrayList&lt;&gt;(path));
-
-    for(int i = begin; i&lt; nums.length; i++ ){
-        //树的同一层，相同元素需要去重，直接跳过
-        if(i &gt; begin &amp;&amp; nums[i] == nums[i-1]){
-            continue;
-        }
-        path.add(nums[i]);
-        dfs(nums, i+1);
-        path.removeLast();
-    }
-}
-</code></pre>
-<p>}</p>
-<p>// @lc code=end</p>
-
+<blockquote>
+<p>思路： 本题就是在[1,2,3,4,5,6,7,8,9]这个集合中找到和为n的k个数的组合。
+相对于77. 组合，无非就是多了一个限制，本题是要找到和为n的k个数的组合，而整个集合已经是固定的了[1,&hellip;,9]。
+想到这一点了，做过77. 组合之后，本题是简单一些了。
+本题k相当于树的深度，9（因为整个集合就是9个数）就是树的宽度。
+例如 k = 2，n = 4的话，就是在集合[1,2,3,4,5,6,7,8,9]中求 k（个数） = 2, n（和） = 4的组合。</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">// @lc code=start
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">import java.util.ArrayList;
+</span></span><span class="line"><span class="cl">import java.util.LinkedList;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">import java.util.ArrayList;
+</span></span><span class="line"><span class="cl">import java.util.LinkedList;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">class Solution {
+</span></span><span class="line"><span class="cl">    List&lt;List&lt;Integer&gt;&gt; result = new ArrayList&lt;&gt;();
+</span></span><span class="line"><span class="cl">    LinkedList&lt;Integer&gt; path = new LinkedList&lt;&gt;();
+</span></span><span class="line"><span class="cl">    public List&lt;List&lt;Integer&gt;&gt; combinationSum3(int k, int n) {
+</span></span><span class="line"><span class="cl">        backTrack( n , k,1,0 );
+</span></span><span class="line"><span class="cl">        return result;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">    public void backTrack(Integer sumTarget, int k, int begin, int sum ){
+</span></span><span class="line"><span class="cl">        //剪枝
+</span></span><span class="line"><span class="cl">        if(sum &gt; sumTarget){
+</span></span><span class="line"><span class="cl">            return;
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        if(path.size() == k &amp;&amp; sum == sumTarget ){
+</span></span><span class="line"><span class="cl">            result.add(new ArrayList&lt;&gt;(path));
+</span></span><span class="line"><span class="cl">            return;
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">        //剪枝 i &lt;= 9 - (k -path.size()) +1
+</span></span><span class="line"><span class="cl">        for(int i = begin; i &lt;= 9 - (k -path.size()) +1 ; i++){
+</span></span><span class="line"><span class="cl">            path.add(i);
+</span></span><span class="line"><span class="cl">            sum += i;
+</span></span><span class="line"><span class="cl">            backTrack(sumTarget,k, i+1, sum);
+</span></span><span class="line"><span class="cl">            path.removeLast();
+</span></span><span class="line"><span class="cl">            sum -= i;
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">// @lc code=end
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -512,30 +531,6 @@ public void dfs(int[] nums, int begin){
         <div class="flex article-list--tile">
             
                 
-<article class="has-image">
-    <a href="/p/216.combination-sum-iii/">
-        
-        
-            <div class="article-image">
-                <img src="/p/216.combination-sum-iii/216.55202900770adb8a1a08471e6afb4ec2_huee336b0bcb2a7652cd11fea2dee339d9_1429265_250x150_fill_q75_box_smart1.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 216.Combination Sum III"
-                        data-key="216.Combination Sum III" 
-                        data-hash="md5-VSApAHcK24oaCEceavtOwg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">216.Combination Sum III</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
 <article class="">
     <a href="/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/">
         
@@ -543,6 +538,30 @@ public void dfs(int[] nums, int begin){
 
         <div class="article-details">
             <h2 class="article-title">回溯算法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/90.subsets-ii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/90.subsets-ii/90.d782636a4bbd3756fa985c8ec9ace8f9_hu5477be140e37c38e9e48439fae2f6b6b_7746938_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 90.subsets-ii"
+                        data-key="90.subsets-ii" 
+                        data-hash="md5-14Jjaku9N1b6mFyOyazo&#43;Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">90.subsets-ii</h2>
         </div>
     </a>
 </article>
