@@ -16,6 +16,14 @@
         <description></description>
         </item>
         <item>
+        <title>travel</title>
+        <link>https://example.com/categories/travel/</link>
+        <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/travel/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>blog</title>
         <link>https://example.com/categories/blog/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>

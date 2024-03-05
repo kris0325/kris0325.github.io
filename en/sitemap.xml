@@ -8,6 +8,9 @@
     <loc>https://example.com/p/47.permutations-ii/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/216.combination-sum-iii/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -64,6 +67,9 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
+    <loc>https://example.com/tags/japan/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/categories/leetcode/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -95,6 +101,9 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
+  </url><url>
+    <loc>https://example.com/categories/travel/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/subsets/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
