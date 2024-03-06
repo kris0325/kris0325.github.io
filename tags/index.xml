@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>combinations</title>
+        <link>https://example.com/tags/combinations/</link>
+        <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/combinations/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Japan</title>
         <link>https://example.com/tags/japan/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
@@ -37,14 +45,6 @@
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/combination/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>combinations</title>
-        <link>https://example.com/tags/combinations/</link>
-        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/combinations/</guid>
         <description></description>
         </item>
         <item>
