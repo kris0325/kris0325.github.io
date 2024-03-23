@@ -8,11 +8,19 @@
         <language>en</language>
         <copyright>thatkrisyang</copyright>
         <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Binary Search</title>
-        <link>https://example.com/tags/binary-search/</link>
+        <title>ARRAY</title>
+        <link>https://example.com/tags/array/</link>
         <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/binary-search/</guid>
+        <guid>https://example.com/tags/array/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>array | two-pointers</title>
+        <link>https://example.com/tags/array-two-pointers/</link>
+        <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/array-two-pointers/</guid>
         <description></description>
         </item>
         <item>
