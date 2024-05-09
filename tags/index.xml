@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>hash-table | sort</title>
+        <link>https://example.com/tags/hash-table-sort/</link>
+        <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/hash-table-sort/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>linked-list</title>
         <link>https://example.com/tags/linked-list/</link>
         <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
