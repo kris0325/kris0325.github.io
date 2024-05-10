@@ -159,9 +159,6 @@
     <loc>https://example.com/tags/array/</loc>
     <lastmod>2024-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/arry/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/tags/binary-search/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -182,9 +179,6 @@
   </url><url>
     <loc>https://example.com/tags/subsets/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/combination/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/blog/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
