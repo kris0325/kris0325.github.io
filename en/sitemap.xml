@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/p/349.-intersection-of-two-arrays/</loc>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/242.-valid-anagram/</loc>
     <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -93,7 +96,7 @@
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -106,7 +109,7 @@
                 />
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -118,14 +121,14 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
-    <loc>https://example.com/tags/hashtable/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/hash-table/</loc>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/leetcode/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -138,7 +141,7 @@
                 />
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -149,6 +152,9 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
+  </url><url>
+    <loc>https://example.com/tags/hashtable/</loc>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/linked-list/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
@@ -238,25 +244,6 @@
     <loc>https://example.com/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/test/"
-                />
-  </url><url>
     <loc>https://example.com/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -275,5 +262,17 @@
     <loc>https://example.com/links/</loc>
   </url><url>
     <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/categories/test/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/zh-cn/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/categories/test/"
+                />
   </url>
 </urlset>

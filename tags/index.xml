@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>hash-table</title>
+        <link>https://example.com/tags/hash-table/</link>
+        <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/hash-table/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>hashtable</title>
         <link>https://example.com/tags/hashtable/</link>
         <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
@@ -133,14 +141,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>emoji</title>
-        <link>https://example.com/tags/emoji/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/emoji/</guid>
         <description></description>
         </item>
         

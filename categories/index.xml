@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>leetcode</title>
         <link>https://example.com/categories/leetcode/</link>
-        <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/leetcode/</guid>
         <description></description>
@@ -56,20 +56,20 @@
         <description></description>
         </item>
         <item>
-        <title>Test</title>
-        <link>https://example.com/categories/test/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/test/</guid>
-        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
         <title>Example Category</title>
         <link>https://example.com/categories/example-category/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/example-category/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://example.com/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/test/</guid>
+        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>
