@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/p/202.-happy-number/</loc>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/349.-intersection-of-two-arrays/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -124,6 +127,9 @@
     <loc>https://example.com/tags/hash-table/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/hashtable/</loc>
+    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/categories/leetcode/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -152,9 +158,6 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
-  </url><url>
-    <loc>https://example.com/tags/hashtable/</loc>
-    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/linked-list/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
