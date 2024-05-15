@@ -316,7 +316,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -331,147 +331,263 @@
     <section class="article-content">
     
     
-    <p>/*</p>
-<ul>
-<li>@lc app=leetcode id=90 lang=java</li>
-<li></li>
-<li>[90] Subsets II</li>
-<li></li>
-<li><a class="link" href="https://leetcode.com/problems/subsets-ii/description/"  target="_blank" rel="noopener"
-    >https://leetcode.com/problems/subsets-ii/description/</a></li>
-<li></li>
-<li>algorithms</li>
-<li>Medium (56.68%)</li>
-<li>Likes:    9237</li>
-<li>Dislikes: 265</li>
-<li>Total Accepted:    819.4K</li>
-<li>Total Submissions: 1.4M</li>
-<li>Testcase Example:  &lsquo;[1,2,2]&rsquo;</li>
-<li></li>
-<li>Given an integer array nums that may contain duplicates, return all possible</li>
-<li>subsets (the power set).</li>
-<li></li>
-<li>The solution set must not contain duplicate subsets. Return the solution in</li>
-<li>any order.</li>
-<li></li>
-<li></li>
-<li>Example 1:</li>
-<li>Input: nums = [1,2,2]</li>
-<li>Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]</li>
-<li>Example 2:</li>
-<li>Input: nums = [0]</li>
-<li>Output: [[],[0]]</li>
-<li></li>
-<li></li>
-<li>Constraints:</li>
-<li></li>
-<li></li>
-<li>1 &lt;= nums.length &lt;= 10</li>
-<li>-10 &lt;= nums[i] &lt;= 10</li>
-<li></li>
-<li></li>
-<li></li>
-<li>Solution1 思路：使用回溯算法, 对unique数组的全排列的变种</li>
-<li>
-<pre><code> 问题拆分成 从n个元素的数组中选者k个元素的素全组合
-</code></pre>
-</li>
-<li>
-<pre><code> , 再收集所有子组合时去重即可
-</code></pre>
-</li>
-<li></li>
-<li>
-<blockquote>
-<p><a class="link" href="https://leetcode.cn/problems/subsets-ii/solutions/1/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/"  target="_blank" rel="noopener"
-    >https://leetcode.cn/problems/subsets-ii/solutions/1/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/</a></p>
-</blockquote>
-</li>
-<li>Solution2 思路：这道题目和78.子集区别就是集合里有重复元素了，而且求取的子集要去重。</li>
-<li>
-<pre><code>           1 注意去重需要先对集合排序
-</code></pre>
-</li>
-<li>
-<pre><code>           2 画出树形图，从图中可以看出，同一树层上重复取2 就要过滤掉，
-</code></pre>
-</li>
-<li>
-<pre><code>            同一树枝上就可以重复取2，因为同一树枝上元素的集合才是唯一子集！
-</code></pre>
-</li>
-</ul>
-<p>*/</p>
-<p>// @lc code=start</p>
-<p>import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-// Solution1 for循环中遍历中排序，时间复杂度太高
-class Solution1 {
-public List&lt;List<Integer>&gt; subsetsWithDup(int[] nums) {
-List&lt;List<Integer>&gt; subsets = new ArrayList&lt;&gt;();
-for(int k = 0; k&lt;= nums.length; k++){
-dfs(nums,0,k,new ArrayList&lt;&gt;(),subsets);
-} <br>
-return subsets; <br>
-}</p>
-<pre><code>public void dfs(int[] nums, int begin, int k, List&lt;Integer&gt; cur
-, List&lt;List&lt;Integer&gt;&gt; subsets ){
-    if(k == cur.size()){
-        //donnot collect dep subset
-        if(isContainTargeList(subsets, new ArrayList&lt;&gt;(cur))){
-            return;
-        }
-        subsets.add(new ArrayList&lt;&gt;(cur));
-        return;
-    }
-    for(int i =begin; i &lt;nums.length - (k - cur.size()-1); i++){
-        cur.add(nums[i]);
-        dfs(nums, i+1, k, cur, subsets);
-        cur.remove(cur.size()-1);
-    }
-}
-
-public boolean isContainTargeList(List&lt;List&lt;Integer&gt;&gt; subsets, List&lt;Integer&gt; targeList ){
-    //因为是组合，不考虑元素顺序，所有需要遍历subsets,判断是否是否包含与targeList相同的组合
-    for(int i = 0; i&lt; subsets.size();i++){
-        Collections.sort(subsets.get(i));
-        Collections.sort(targeList);
-        if(subsets.get(i).equals(targeList)){
-            return true;
-        }
-    }
-    return false;
-    
-}
-</code></pre>
-<p>}</p>
-<p>class Solution {
-List&lt;List<Integer>&gt; subsets = new ArrayList&lt;&gt;();
-List<Integer> path = new ArrayList&lt;&gt;();</p>
-<pre><code>public List&lt;List&lt;Integer&gt;&gt; subsetsWithDup(int[] nums) {
-    Arrays.sort(nums);
-    dfs(nums,0);
-    return subsets;
-}
-
-public void dfs(int[] nums, int begin){ 
-    subsets.add(new ArrayList&lt;&gt;(path));
-
-    for(int i = begin; i&lt; nums.length; i++ ){
-        //树的同一层，相同元素需要去重，直接跳过
-        if(i &gt; begin &amp;&amp; nums[i] == nums[i-1]){
-            continue;
-        }
-        path.add(nums[i]);
-        dfs(nums, i+1);
-        path.removeLast();
-    }
-}
-</code></pre>
-<p>}</p>
-<p>// @lc code=end</p>
-
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/*
+</span></span><span class="line"><span class="cl"> * @lc app=leetcode id=90 lang=java
+</span></span><span class="line"><span class="cl"> *
+</span></span><span class="line"><span class="cl"> * [90] Subsets II
+</span></span><span class="line"><span class="cl"> *
+</span></span><span class="line"><span class="cl"> * https://leetcode.com/problems/subsets-ii/description/
+</span></span><span class="line"><span class="cl"> *
+</span></span><span class="line"><span class="cl"> * algorithms
+</span></span><span class="line"><span class="cl"> * Medium (56.68%)
+</span></span><span class="line"><span class="cl"> * Likes:    9237
+</span></span><span class="line"><span class="cl"> * Dislikes: 265
+</span></span><span class="line"><span class="cl"> * Total Accepted:    819.4K
+</span></span><span class="line"><span class="cl"> * Total Submissions: 1.4M
+</span></span><span class="line"><span class="cl"> * Testcase Example:  &#39;[1,2,2]&#39;
+</span></span><span class="line"><span class="cl"> *
+</span></span><span class="line"><span class="cl"> * Given an integer array nums that may contain duplicates, return all possible
+</span></span><span class="line"><span class="cl"> * subsets (the power set).
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * The solution set must not contain duplicate subsets. Return the solution in
+</span></span><span class="line"><span class="cl"> * any order.
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * Example 1:
+</span></span><span class="line"><span class="cl"> * Input: nums = [1,2,2]
+</span></span><span class="line"><span class="cl"> * Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+</span></span><span class="line"><span class="cl"> * Example 2:
+</span></span><span class="line"><span class="cl"> * Input: nums = [0]
+</span></span><span class="line"><span class="cl"> * Output: [[],[0]]
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * Constraints:
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 1 &lt;= nums.length &lt;= 10
+</span></span><span class="line"><span class="cl"> * -10 &lt;= nums[i] &lt;= 10
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * 
+</span></span><span class="line"><span class="cl"> * Solution1 思路：使用回溯算法, 对unique数组的全排列的变种
+</span></span><span class="line"><span class="cl"> *      问题拆分成 从n个元素的数组中选者k个元素的素全组合
+</span></span><span class="line"><span class="cl"> *      , 再收集所有子组合时去重即可
+</span></span><span class="line"><span class="cl"> *
+</span></span><span class="line"><span class="cl"> * &gt; https://leetcode.cn/problems/subsets-ii/solutions/1/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/
+</span></span><span class="line"><span class="cl"> * Solution2 思路：这道题目和78.子集区别就是集合里有重复元素了，而且求取的子集要去重。
+</span></span><span class="line"><span class="cl"> *                1 注意去重需要先对集合排序
+</span></span><span class="line"><span class="cl"> *                2 画出树形图，从图中可以看出，同一树层上重复取2 就要过滤掉，
+</span></span><span class="line"><span class="cl"> *                 同一树枝上就可以重复取2，因为同一树枝上元素的集合才是唯一子集！
+</span></span><span class="line"><span class="cl"> */
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// @lc code=start</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.ArrayList</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Arrays</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Solution1 for循环中遍历中排序，时间复杂度太高 </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">Solution1</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="nf">subsetsWithDup</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">nums</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">subsets</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">&lt;=</span><span class="w"> </span><span class="n">nums</span><span class="p">.</span><span class="na">length</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">++</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">dfs</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span><span class="n">0</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">(),</span><span class="n">subsets</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">subsets</span><span class="p">;</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">dfs</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">nums</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">begin</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cur</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">subsets</span><span class="w"> </span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">k</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">cur</span><span class="p">.</span><span class="na">size</span><span class="p">()){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="c1">//donnot collect dep subset</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">isContainTargeList</span><span class="p">(</span><span class="n">subsets</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">cur</span><span class="p">))){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">subsets</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">cur</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">return</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="n">begin</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="n">nums</span><span class="p">.</span><span class="na">length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">k</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">cur</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="o">-</span><span class="n">1</span><span class="p">);</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">cur</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">nums</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">dfs</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="o">+</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">cur</span><span class="p">,</span><span class="w"> </span><span class="n">subsets</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">cur</span><span class="p">.</span><span class="na">remove</span><span class="p">(</span><span class="n">cur</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="o">-</span><span class="n">1</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isContainTargeList</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">subsets</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">targeList</span><span class="w"> </span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//因为是组合，不考虑元素顺序，所有需要遍历subsets,判断是否是否包含与targeList相同的组合</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="w"> </span><span class="n">subsets</span><span class="p">.</span><span class="na">size</span><span class="p">();</span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">Collections</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">subsets</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">i</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">Collections</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">targeList</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">subsets</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="na">equals</span><span class="p">(</span><span class="n">targeList</span><span class="p">)){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">Solution</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">subsets</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="nf">subsetsWithDup</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">nums</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Arrays</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">nums</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">dfs</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span><span class="n">0</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">subsets</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">dfs</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">nums</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">begin</span><span class="p">){</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">subsets</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">path</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">begin</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="w"> </span><span class="n">nums</span><span class="p">.</span><span class="na">length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="w"> </span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="c1">//树的同一层，相同元素需要去重，直接跳过</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">begin</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">nums</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">nums</span><span class="o">[</span><span class="n">i</span><span class="o">-</span><span class="n">1</span><span class="o">]</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">continue</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">path</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">nums</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">dfs</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="o">+</span><span class="n">1</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">path</span><span class="p">.</span><span class="na">removeLast</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// @lc code=end</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -598,23 +714,23 @@ public void dfs(int[] nums, int begin){
             
                 
 <article class="has-image">
-    <a href="/p/15.-3sum/">
+    <a href="/p/541.-reverse-string-ii/">
         
         
             <div class="article-image">
-                <img src="/p/15.-3sum/15.025f0f98b756404edaff1034d2cf6b66_hua62bcbcf9a79dfe26d0875c8d67438b3_12225185_250x150_fill_box_smart1_3.png" 
+                <img src="/p/541.-reverse-string-ii/541.6922a786dc0c30cf66d468c0c98b10bf_hua62bcbcf9a79dfe26d0875c8d67438b3_5193231_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 15. 3Sum"
-                        data-key="15. 3Sum" 
-                        data-hash="md5-Al8PmLdWQE7a/xA00s9rZg==">
+                        alt="Featured image of post 541. Reverse String II"
+                        data-key="541. Reverse String II" 
+                        data-hash="md5-aSKnhtwMMM9m1GjAyYsQvw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">15. 3Sum</h2>
+            <h2 class="article-title">541. Reverse String II</h2>
         </div>
     </a>
 </article>
