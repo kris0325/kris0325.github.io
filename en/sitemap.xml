@@ -5,6 +5,9 @@
     <loc>https://example.com/p/20.-valid-parentheses/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/p/232.-implement-queue-using-stacks/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/151.-reverse-words-in-a-string/</loc>
     <lastmod>2024-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -169,6 +172,12 @@
                 hreflang="en"
                 href="https://example.com/post/"
                 />
+  </url><url>
+    <loc>https://example.com/tags/stack/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/stack/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/string/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
