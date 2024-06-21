@@ -7,20 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Binary Tree</title>
-        <link>https://example.com/categories/binary-tree/</link>
-        <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Backtracking</title>
+        <link>https://example.com/categories/backtracking/</link>
+        <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/binary-tree/</guid>
+        <guid>https://example.com/categories/backtracking/</guid>
         <description></description>
         </item>
         <item>
         <title>Leetcode</title>
         <link>https://example.com/categories/leetcode/</link>
-        <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/leetcode/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Binary Tree</title>
+        <link>https://example.com/categories/binary-tree/</link>
+        <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/binary-tree/</guid>
         <description></description>
         </item>
         <item>
