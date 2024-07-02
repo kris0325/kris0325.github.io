@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 Delete Node in a BST Category	Difficulty	Likes	Dislikes algorithms	Medium (51.20%)	9042	276 Tags Companies uber Given a root node reference of a BST and a key, delete the node with the given key in the BST.'>
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/p/'>
 
 <link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content=''>
-<meta property='og:description' content=''>
+<meta property='og:description' content='1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 Delete Node in a BST Category	Difficulty	Likes	Dislikes algorithms	Medium (51.20%)	9042	276 Tags Companies uber Given a root node reference of a BST and a key, delete the node with the given key in the BST.'>
 <meta property='og:url' content='http://localhost:1313/p/'>
 <meta property='og:site_name' content='thatkrisyang'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 Delete Node in a BST Category	Difficulty	Likes	Dislikes algorithms	Medium (51.20%)	9042	276 Tags Companies uber Given a root node reference of a BST and a key, delete the node with the given key in the BST.">
   
 
 
@@ -281,7 +281,7 @@
 
 
                 <time class="article-time--reading">
-                    0 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -296,7 +296,103 @@
     <section class="article-content">
     
     
-    
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Delete Node in a BST
+</span></span><span class="line"><span class="cl">Category	Difficulty	Likes	Dislikes
+</span></span><span class="line"><span class="cl">algorithms	Medium (51.20%)	9042	276
+</span></span><span class="line"><span class="cl">Tags
+</span></span><span class="line"><span class="cl">Companies
+</span></span><span class="line"><span class="cl">uber
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Basically, the deletion can be divided into two stages:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Search for a node to remove.
+</span></span><span class="line"><span class="cl">If the node is found, delete the node.
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Example 1:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Input: root = [5,3,6,2,4,null,7], key = 3
+</span></span><span class="line"><span class="cl">Output: [5,4,6,2,null,null,7]
+</span></span><span class="line"><span class="cl">Explanation: Given key to delete is 3. So we find the node with value 3 and delete it.
+</span></span><span class="line"><span class="cl">One valid answer is [5,4,6,2,null,null,7], shown in the above BST.
+</span></span><span class="line"><span class="cl">Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s also accepted.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Example 2:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Input: root = [5,3,6,2,4,null,7], key = 0
+</span></span><span class="line"><span class="cl">Output: [5,3,6,2,4,null,7]
+</span></span><span class="line"><span class="cl">Explanation: The tree does not contain a node with value = 0.
+</span></span><span class="line"><span class="cl">Example 3:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Input: root = [], key = 0
+</span></span><span class="line"><span class="cl">Output: []
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Constraints:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">The number of nodes in the tree is in the range [0, 104].
+</span></span><span class="line"><span class="cl">-105 &lt;= Node.val &lt;= 105
+</span></span><span class="line"><span class="cl">Each node has a unique value.
+</span></span><span class="line"><span class="cl">root is a valid binary search tree.
+</span></span><span class="line"><span class="cl">-105 &lt;= key &lt;= 105
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Follow up: Could you solve it with time complexity O(height of tree)?
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 

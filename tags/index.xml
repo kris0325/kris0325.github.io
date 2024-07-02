@@ -7,7 +7,87 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Airbnb</title>
+        <link>https://example.com/tags/airbnb/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/airbnb/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Amazon</title>
+        <link>https://example.com/tags/amazon/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/amazon/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Apple</title>
+        <link>https://example.com/tags/apple/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/apple/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Bloomberg</title>
+        <link>https://example.com/tags/bloomberg/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/bloomberg/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>DFS</title>
+        <link>https://example.com/tags/dfs/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/dfs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Facebook</title>
+        <link>https://example.com/tags/facebook/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/facebook/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linkedin</title>
+        <link>https://example.com/tags/linkedin/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/linkedin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Microsoft</title>
+        <link>https://example.com/tags/microsoft/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/microsoft/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tree</title>
+        <link>https://example.com/tags/tree/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/tree/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Uber</title>
+        <link>https://example.com/tags/uber/</link>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/uber/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Dp</title>
         <link>https://example.com/tags/dp/</link>
         <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
