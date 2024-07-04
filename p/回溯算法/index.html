@@ -10,9 +10,10 @@
 <meta property='og:description' content='回溯算法'>
 <meta property='og:url' content='https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/'>
 <meta property='og:site_name' content='thatkrisyang'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='subsets' /><meta property='article:published_time' content='2024-01-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-25T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='subsets' /><meta property='article:published_time' content='2024-01-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-25T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking.jpg' />
 <meta name="twitter:title" content="回溯算法">
-<meta name="twitter:description" content="回溯算法">
+<meta name="twitter:description" content="回溯算法"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking.jpg' />
   
 
 
@@ -268,6 +269,14 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
+    <li><a href="#什么是回溯法">什么是回溯法</a></li>
+    <li><a href="#回溯法的效率">回溯法的效率</a></li>
+    <li><a href="#回溯法解决的问题">回溯法解决的问题</a></li>
+    <li><a href="#如何理解回溯法">如何理解回溯法</a></li>
+    <li><a href="#回溯法模板">回溯法模板</a></li>
+  </ol>
+
+  <ol>
     <li><a href="#适用题型列出所有可能的选择如组合切割部分子集问题排列棋盘">适用题型：列出所有可能的选择如：组合，切割，部分子集问题，排列，棋盘</a></li>
   </ol>
 </nav>
@@ -280,8 +289,20 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/">
+                <img src="/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking_hu2e5a54eaf2acbac44f9a9ce7d3337f38_346767_800x0_resize_q75_box.jpg"
+                        srcset="/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking_hu2e5a54eaf2acbac44f9a9ce7d3337f38_346767_800x0_resize_q75_box.jpg 800w, /p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking_hu2e5a54eaf2acbac44f9a9ce7d3337f38_346767_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="853" 
+                        loading="lazy"
+                        alt="Featured image of post 回溯算法" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -353,6 +374,114 @@
     
     
     <h1 id="回溯算法">回溯算法</h1>
+<h2 id="什么是回溯法">什么是回溯法</h2>
+<p>回溯法也可以叫做回溯搜索法，它是一种搜索的方式。</p>
+<p>在二叉树系列中，我们已经不止一次，提到了回溯，例如二叉树：以为使用了递归，其实还隐藏着回溯 (opens new window)。</p>
+<p>回溯是递归的副产品，只要有递归就会有回溯。</p>
+<p>所以以下讲解中，回溯函数也就是递归函数，指的都是一个函数。</p>
+<h2 id="回溯法的效率">回溯法的效率</h2>
+<p>回溯法的性能如何呢，这里要和大家说清楚了，虽然回溯法很难，很不好理解，但是回溯法并不是什么高效的算法。</p>
+<p>因为回溯的本质是穷举，穷举所有可能，然后选出我们想要的答案，如果想让回溯法高效一些，可以加一些剪枝的操作，但也改不了回溯法就是穷举的本质。</p>
+<p>那么既然回溯法并不高效为什么还要用它呢？</p>
+<p>因为没得选，一些问题能暴力搜出来就不错了，撑死了再剪枝一下，还没有更高效的解法。</p>
+<p>此时大家应该好奇了，都什么问题，这么牛逼，只能暴力搜索。</p>
+<h2 id="回溯法解决的问题">回溯法解决的问题</h2>
+<p>回溯法，一般可以解决如下几种问题：</p>
+<p><strong>组合问题</strong>：N个数里面按一定规则找出k个数的集合</p>
+<p><strong>切割问题</strong>：一个字符串按一定规则有几种切割方式</p>
+<p><strong>子集问题</strong>：一个N个数的集合里有多少符合条件的子集</p>
+<p><strong>排列问题</strong>：N个数按一定规则全排列，有几种排列方式</p>
+<p><strong>棋盘问题</strong>：N皇后，解数独等等
+相信大家看着这些之后会发现，每个问题，都不简单！</p>
+<h2 id="如何理解回溯法">如何理解回溯法</h2>
+<p>回溯法解决的问题都可以抽象为树形结构，是的，我指的是所有回溯法的问题都可以抽象为树形结构！</p>
+<p>因为回溯法解决的都是在集合中递归查找子集，集合的大小就构成了树的宽度，递归的深度就构成了树的深度。</p>
+<p>递归就要有终止条件，所以必然是一棵高度有限的树（N叉树）。</p>
+<p>这块可能初学者还不太理解，后面的回溯算法解决的所有题目中，我都会强调这一点并画图举相应的例子，现在有一个印象就行。</p>
+<h2 id="回溯法模板">回溯法模板</h2>
+<p>这里给出Carl总结的回溯算法模板。</p>
+<p>在讲二叉树的递归 中我们说了递归三部曲，这里我再给大家列出回溯三部曲。</p>
+<p>回溯函数模板返回值以及参数
+在回溯算法中，我的习惯是函数起名字为backtracking，这个起名大家随意。</p>
+<p>回溯算法中函数返回值一般为void。</p>
+<p>再来看一下参数，因为回溯算法需要的参数可不像二叉树递归的时候那么容易一次性确定下来，所以一般是先写逻辑，然后需要什么参数，就填什么参数。</p>
+<p>但后面的回溯题目的讲解中，为了方便大家理解，我在一开始就帮大家把参数确定下来。</p>
+<p>回溯函数伪代码如下：</p>
+<p>void backtracking(参数)
+回溯函数终止条件
+既然是树形结构，那么我们在讲解二叉树的递归 (opens new window)的时候，就知道遍历树形结构一定要有终止条件。</p>
+<p>所以回溯也有要终止条件。</p>
+<p>什么时候达到了终止条件，树中就可以看出，一般来说搜到叶子节点了，也就找到了满足条件的一条答案，把这个答案存放起来，并结束本层递归。</p>
+<p>所以回溯函数终止条件伪代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">终止条件</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">存放结果</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>回溯搜索的遍历过程
+在上面我们提到了，回溯法一般是在集合中递归搜索，集合的大小构成了树的宽度，递归的深度构成的树的深度。</p>
+<p>注意图中，我特意举例集合大小和孩子的数量是相等的！</p>
+<p>回溯函数遍历过程伪代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">选择</span><span class="err">：</span><span class="n">本层集合中元素</span><span class="err">（</span><span class="n">树中节点孩子的数量就是集合的大小</span><span class="err">）</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">处理节点</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">backtracking</span><span class="p">(</span><span class="n">路径</span><span class="err">，</span><span class="n">选择列表</span><span class="p">);</span><span class="w"> </span><span class="c1">// 递归</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">回溯</span><span class="err">，</span><span class="n">撤销处理结果</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>for循环就是遍历集合区间，可以理解一个节点有多少个孩子，这个for循环就执行多少次。</p>
+<p>backtracking这里自己调用自己，实现递归。</p>
+<p>大家可以从图中看出for循环可以理解是横向遍历，backtracking（递归）就是纵向遍历，这样就把这棵树全遍历完了，一般来说，搜索叶子节点就是找的其中一个结果了。</p>
+<p>分析完过程，回溯算法模板框架如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">void</span><span class="w"> </span><span class="nf">backtracking</span><span class="p">(</span><span class="n">参数</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">终止条件</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">存放结果</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">选择</span><span class="err">：</span><span class="n">本层集合中元素</span><span class="err">（</span><span class="n">树中节点孩子的数量就是集合的大小</span><span class="err">）</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">处理节点</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">backtracking</span><span class="p">(</span><span class="n">路径</span><span class="err">，</span><span class="n">选择列表</span><span class="p">);</span><span class="w"> </span><span class="c1">// 递归</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">回溯</span><span class="err">，</span><span class="n">撤销处理结果</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="heading"></h1>
 <h2 id="适用题型列出所有可能的选择如组合切割部分子集问题排列棋盘">适用题型：列出所有可能的选择如：组合，切割，部分子集问题，排列，棋盘</h2>
 <p>e.g. leetcode 17.电话号码组合</p>
 <p>算法模板：</p>
@@ -476,6 +605,54 @@
             
                 
 <article class="has-image">
+    <a href="/p/dynamic-programming/">
+        
+        
+            <div class="article-image">
+                <img src="/p/dynamic-programming/dp.119abf87327bc30e58f1d71bd18ae27a_hua0795831999c8007c45aacdebf1b7cd0_725379_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post dynamic programming"
+                        data-key="dynamic programming" 
+                        data-hash="md5-EZq/hzJ7ww5Y8dcb0Yrieg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">dynamic programming</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/greedy-algorithm/">
+        
+        
+            <div class="article-image">
+                <img src="/p/greedy-algorithm/greedyAlgorithm.da724d47ad457537396e1339970daf0d_hu6b6ac5c1652e1dd9a169b4fc35a513f8_329961_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post greedy algorithm"
+                        data-key="greedy algorithm" 
+                        data-hash="md5-2nJNR61FdTc5bhM5lw2vDQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">greedy algorithm</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/501.find-mode-in-binary-search-tree.java/">
         
         
@@ -493,32 +670,6 @@
 
         <div class="article-details">
             <h2 class="article-title">501.find-mode-in-binary-search-tree.java</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/105.construct-binary-tree-from-preorder-and-inorder-traversal.java/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">105.construct-binary-tree-from-preorder-and-inorder-traversal.java</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/106.construct-binary-tree-from-inorder-and-postorder-traversal.java/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">106.construct-binary-tree-from-inorder-and-postorder-traversal.java</h2>
         </div>
     </a>
 </article>

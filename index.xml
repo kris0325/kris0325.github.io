@@ -7,7 +7,71 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>dynamic programming</title>
+        <link>https://example.com/p/dynamic-programming/</link>
+        <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/dynamic-programming/</guid>
+        <description>&lt;img src="https://example.com/p/dynamic-programming/dp.jpg" alt="Featured image of post dynamic programming" /&gt;&lt;h1 id=&#34;什么是动态规划&#34;&gt;什么是动态规划&lt;/h1&gt;
+&lt;p&gt;动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。&lt;/p&gt;
+&lt;p&gt;所以动态规划中每一个状态一定是由上一个状态推导出来的，这一点就区分于贪心，贪心没有状态推导，而是从局部直接选最优的，&lt;/p&gt;
+&lt;p&gt;动态规划的解题步骤
+做动规题目的时候，很多同学会陷入一个误区，就是以为把状态转移公式背下来，照葫芦画瓢改改，就开始写代码，甚至把题目AC之后，都不太清楚dp[i]表示的是什么。&lt;/p&gt;
+&lt;p&gt;这就是一种朦胧的状态，然后就把题给过了，遇到稍稍难一点的，可能直接就不会了，然后看题解，然后继续照葫芦画瓢陷入这种恶性循环中。&lt;/p&gt;
+&lt;p&gt;状态转移公式（递推公式）是很重要，但动规不仅仅只有递推公式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对于动态规划问题，我将拆解为如下五步曲，这五步都搞清楚了，才能说把动态规划真的掌握了！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 确定dp数组（dp table）以及下标的含义&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 确定递推公式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. dp数组如何初始化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 确定遍历顺序&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 举例推导dp数组&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一些同学可能想为什么要先确定递推公式，然后在考虑初始化呢？&lt;/p&gt;
+&lt;p&gt;因为一些情况是递推公式决定了dp数组要如何初始化！&lt;/p&gt;
+&lt;p&gt;后面的讲解中我都是围绕着这五点来进行讲解。&lt;/p&gt;
+&lt;p&gt;可能刷过动态规划题目的同学可能都知道递推公式的重要性，感觉确定了递推公式这道题目就解出来了。&lt;/p&gt;
+&lt;p&gt;其实 确定递推公式 仅仅是解题里的一步而已！&lt;/p&gt;
+&lt;p&gt;一些同学知道递推公式，但搞不清楚dp数组应该如何初始化，或者正确的遍历顺序，以至于记下来公式，但写的程序怎么改都通过不了。&lt;/p&gt;
+&lt;p&gt;后序的讲解的大家就会慢慢感受到这五步的重要性了。&lt;/p&gt;
+&lt;h1 id=&#34;动态规划应该如何debug&#34;&gt;动态规划应该如何debug&lt;/h1&gt;
+&lt;p&gt;相信动规的题目，很大部分同学都是这样做的。&lt;/p&gt;
+&lt;p&gt;看一下题解，感觉看懂了，然后照葫芦画瓢，如果能正好画对了，万事大吉，一旦要是没通过，就怎么改都通过不了，对 dp数组的初始化，递推公式，遍历顺序，处于一种黑盒的理解状态。&lt;/p&gt;
+&lt;p&gt;写动规题目，代码出问题很正常！&lt;/p&gt;
+&lt;p&gt;找问题的最好方式就是把dp数组打印出来，看看究竟是不是按照自己思路推导的！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>greedy algorithm</title>
+        <link>https://example.com/p/greedy-algorithm/</link>
+        <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/greedy-algorithm/</guid>
+        <description>&lt;img src="https://example.com/p/greedy-algorithm/greedyAlgorithm.png" alt="Featured image of post greedy algorithm" /&gt;&lt;h1 id=&#34;什么是贪心&#34;&gt;什么是贪心&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;贪心的本质是选择每一阶段的局部最优，从而达到全局最优。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;贪心的套路什么时候用贪心&#34;&gt;贪心的套路（什么时候用贪心）&lt;/h1&gt;
+&lt;p&gt;很多同学做贪心的题目的时候，想不出来是贪心，想知道有没有什么套路可以一看就看出来是贪心。&lt;/p&gt;
+&lt;p&gt;说实话贪心算法并没有固定的套路。&lt;/p&gt;
+&lt;p&gt;所以唯一的难点就是如何通过局部最优，推出整体最优。&lt;/p&gt;
+&lt;p&gt;那么如何能看出局部最优是否能推出整体最优呢？有没有什么固定策略或者套路呢？&lt;/p&gt;
+&lt;p&gt;不好意思，也没有！ 靠自己手动模拟，如果模拟可行，就可以试一试贪心策略，如果不可行，可能需要动态规划。&lt;/p&gt;
+&lt;p&gt;有同学问了如何验证可不可以用贪心算法呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最好用的策略就是举反例，如果想不到反例，那么就试一试贪心吧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手动模拟一下感觉可以局部最优推出整体最优，而且想不到反例，那么就试一试贪心。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;贪心一般解题步骤&#34;&gt;贪心一般解题步骤&lt;/h1&gt;
+&lt;p&gt;贪心算法一般分为如下四步：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 将问题分解为若干个子问题
+2. 找出适合的贪心策略
+3. 求解每一个子问题的最优解
+4. 将局部最优解堆叠成全局最优解&lt;/strong&gt;
+这个四步其实过于理论化了，我们平时在做贪心类的题目 很难去按照这四步去思考，真是有点“鸡肋”。&lt;/p&gt;
+&lt;p&gt;做题的时候，只要想清楚 局部最优 是什么，如果推导出全局最优，其实就够了。&lt;/p&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
+&lt;p&gt;本篇给出了什么是贪心以及大家关心的贪心算法固定套路。&lt;/p&gt;
+&lt;p&gt;不好意思了，贪心没有套路，说白了就是常识性推导加上举反例。&lt;/p&gt;
+&lt;p&gt;最后给出贪心的一般解题步骤，大家可以发现这个解题步骤也是比较抽象的，不像是二叉树，回溯算法，给出了那么具体的解题套路和模板。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>501.find-mode-in-binary-search-tree.java</title>
         <link>https://example.com/p/501.find-mode-in-binary-search-tree.java/</link>
         <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
@@ -12356,7 +12420,115 @@
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</guid>
-        <description>&lt;h1 id=&#34;回溯算法&#34;&gt;回溯算法&lt;/h1&gt;
+        <description>&lt;img src="https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking.jpg" alt="Featured image of post 回溯算法" /&gt;&lt;h1 id=&#34;回溯算法&#34;&gt;回溯算法&lt;/h1&gt;
+&lt;h2 id=&#34;什么是回溯法&#34;&gt;什么是回溯法&lt;/h2&gt;
+&lt;p&gt;回溯法也可以叫做回溯搜索法，它是一种搜索的方式。&lt;/p&gt;
+&lt;p&gt;在二叉树系列中，我们已经不止一次，提到了回溯，例如二叉树：以为使用了递归，其实还隐藏着回溯 (opens new window)。&lt;/p&gt;
+&lt;p&gt;回溯是递归的副产品，只要有递归就会有回溯。&lt;/p&gt;
+&lt;p&gt;所以以下讲解中，回溯函数也就是递归函数，指的都是一个函数。&lt;/p&gt;
+&lt;h2 id=&#34;回溯法的效率&#34;&gt;回溯法的效率&lt;/h2&gt;
+&lt;p&gt;回溯法的性能如何呢，这里要和大家说清楚了，虽然回溯法很难，很不好理解，但是回溯法并不是什么高效的算法。&lt;/p&gt;
+&lt;p&gt;因为回溯的本质是穷举，穷举所有可能，然后选出我们想要的答案，如果想让回溯法高效一些，可以加一些剪枝的操作，但也改不了回溯法就是穷举的本质。&lt;/p&gt;
+&lt;p&gt;那么既然回溯法并不高效为什么还要用它呢？&lt;/p&gt;
+&lt;p&gt;因为没得选，一些问题能暴力搜出来就不错了，撑死了再剪枝一下，还没有更高效的解法。&lt;/p&gt;
+&lt;p&gt;此时大家应该好奇了，都什么问题，这么牛逼，只能暴力搜索。&lt;/p&gt;
+&lt;h2 id=&#34;回溯法解决的问题&#34;&gt;回溯法解决的问题&lt;/h2&gt;
+&lt;p&gt;回溯法，一般可以解决如下几种问题：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;组合问题&lt;/strong&gt;：N个数里面按一定规则找出k个数的集合&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;切割问题&lt;/strong&gt;：一个字符串按一定规则有几种切割方式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;子集问题&lt;/strong&gt;：一个N个数的集合里有多少符合条件的子集&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;排列问题&lt;/strong&gt;：N个数按一定规则全排列，有几种排列方式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;棋盘问题&lt;/strong&gt;：N皇后，解数独等等
+相信大家看着这些之后会发现，每个问题，都不简单！&lt;/p&gt;
+&lt;h2 id=&#34;如何理解回溯法&#34;&gt;如何理解回溯法&lt;/h2&gt;
+&lt;p&gt;回溯法解决的问题都可以抽象为树形结构，是的，我指的是所有回溯法的问题都可以抽象为树形结构！&lt;/p&gt;
+&lt;p&gt;因为回溯法解决的都是在集合中递归查找子集，集合的大小就构成了树的宽度，递归的深度就构成了树的深度。&lt;/p&gt;
+&lt;p&gt;递归就要有终止条件，所以必然是一棵高度有限的树（N叉树）。&lt;/p&gt;
+&lt;p&gt;这块可能初学者还不太理解，后面的回溯算法解决的所有题目中，我都会强调这一点并画图举相应的例子，现在有一个印象就行。&lt;/p&gt;
+&lt;h2 id=&#34;回溯法模板&#34;&gt;回溯法模板&lt;/h2&gt;
+&lt;p&gt;这里给出Carl总结的回溯算法模板。&lt;/p&gt;
+&lt;p&gt;在讲二叉树的递归 中我们说了递归三部曲，这里我再给大家列出回溯三部曲。&lt;/p&gt;
+&lt;p&gt;回溯函数模板返回值以及参数
+在回溯算法中，我的习惯是函数起名字为backtracking，这个起名大家随意。&lt;/p&gt;
+&lt;p&gt;回溯算法中函数返回值一般为void。&lt;/p&gt;
+&lt;p&gt;再来看一下参数，因为回溯算法需要的参数可不像二叉树递归的时候那么容易一次性确定下来，所以一般是先写逻辑，然后需要什么参数，就填什么参数。&lt;/p&gt;
+&lt;p&gt;但后面的回溯题目的讲解中，为了方便大家理解，我在一开始就帮大家把参数确定下来。&lt;/p&gt;
+&lt;p&gt;回溯函数伪代码如下：&lt;/p&gt;
+&lt;p&gt;void backtracking(参数)
+回溯函数终止条件
+既然是树形结构，那么我们在讲解二叉树的递归 (opens new window)的时候，就知道遍历树形结构一定要有终止条件。&lt;/p&gt;
+&lt;p&gt;所以回溯也有要终止条件。&lt;/p&gt;
+&lt;p&gt;什么时候达到了终止条件，树中就可以看出，一般来说搜到叶子节点了，也就找到了满足条件的一条答案，把这个答案存放起来，并结束本层递归。&lt;/p&gt;
+&lt;p&gt;所以回溯函数终止条件伪代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;终止条件&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;存放结果&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;回溯搜索的遍历过程
+在上面我们提到了，回溯法一般是在集合中递归搜索，集合的大小构成了树的宽度，递归的深度构成的树的深度。&lt;/p&gt;
+&lt;p&gt;注意图中，我特意举例集合大小和孩子的数量是相等的！&lt;/p&gt;
+&lt;p&gt;回溯函数遍历过程伪代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;选择&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;本层集合中元素&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;树中节点孩子的数量就是集合的大小&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;）&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;处理节点&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backtracking&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;路径&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;选择列表&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 递归&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;回溯&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;撤销处理结果&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;for循环就是遍历集合区间，可以理解一个节点有多少个孩子，这个for循环就执行多少次。&lt;/p&gt;
+&lt;p&gt;backtracking这里自己调用自己，实现递归。&lt;/p&gt;
+&lt;p&gt;大家可以从图中看出for循环可以理解是横向遍历，backtracking（递归）就是纵向遍历，这样就把这棵树全遍历完了，一般来说，搜索叶子节点就是找的其中一个结果了。&lt;/p&gt;
+&lt;p&gt;分析完过程，回溯算法模板框架如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;backtracking&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;终止条件&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;存放结果&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;选择&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;本层集合中元素&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;树中节点孩子的数量就是集合的大小&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;）&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;处理节点&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backtracking&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;路径&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;选择列表&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 递归&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;回溯&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;撤销处理结果&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;适用题型列出所有可能的选择如组合切割部分子集问题排列棋盘&#34;&gt;适用题型：列出所有可能的选择如：组合，切割，部分子集问题，排列，棋盘&lt;/h2&gt;
 &lt;p&gt;e.g. leetcode 17.电话号码组合&lt;/p&gt;
 &lt;p&gt;算法模板：&lt;/p&gt;

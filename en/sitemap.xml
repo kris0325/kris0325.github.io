@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/p/dynamic-programming/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/greedy-algorithm/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/501.find-mode-in-binary-search-tree.java/</loc>
     <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -189,7 +195,7 @@
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -201,11 +207,8 @@
                 href="https://example.com/"
                 />
   </url><url>
-    <loc>https://example.com/categories/binary-tree/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -217,20 +220,17 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
-    <loc>https://example.com/tags/dfs/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/dp/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/easy/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/google/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/greedy-algorithm/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/leetcode/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -243,7 +243,7 @@
                 />
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -254,6 +254,18 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
+  </url><url>
+    <loc>https://example.com/categories/binary-tree/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/dfs/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/easy/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/google/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/airbnb/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
@@ -284,9 +296,6 @@
   </url><url>
     <loc>https://example.com/tags/uber/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/dp/</loc>
-    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/dp/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>

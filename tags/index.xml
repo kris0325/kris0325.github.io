@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>DP</title>
+        <link>https://example.com/tags/dp/</link>
+        <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/dp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Greedy Algorithm</title>
+        <link>https://example.com/tags/greedy-algorithm/</link>
+        <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/greedy-algorithm/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>DFS</title>
         <link>https://example.com/tags/dfs/</link>
         <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
@@ -109,14 +125,6 @@
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/uber/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Dp</title>
-        <link>https://example.com/tags/dp/</link>
-        <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/dp/</guid>
         <description></description>
         </item>
         <item>
