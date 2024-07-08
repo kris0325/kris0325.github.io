@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Binary Tree</title>
+        <link>https://example.com/tags/binary-tree/</link>
+        <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/binary-tree/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>DP</title>
         <link>https://example.com/tags/dp/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
@@ -133,14 +141,6 @@
         <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/backtracking/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Binary Tree</title>
-        <link>https://example.com/tags/binary-tree/</link>
-        <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/tags/binary-tree/</guid>
         <description></description>
         </item>
         <item>

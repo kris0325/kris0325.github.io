@@ -40,11 +40,11 @@
 &lt;p&gt;找问题的最好方式就是把dp数组打印出来，看看究竟是不是按照自己思路推导的！&lt;/p&gt;
 &lt;h1 id=&#34;dp-questions-list&#34;&gt;DP Questions List&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/62.-unique-paths/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;62. Unique Paths&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;63. Unique Paths ii&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/70.-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;70. Climbing Stairs&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/746.-min-cost-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;62. Unique Paths&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;63. Unique Paths ii&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/70.-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;70. Climbing Stairs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/746.-min-cost-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;746. Min Cost Climbing Stairs&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
