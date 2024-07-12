@@ -13,8 +13,9 @@
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/dynamic-programming/</guid>
-        <description>&lt;img src="https://example.com/p/dynamic-programming/dp.jpg" alt="Featured image of post dynamic programming" /&gt;&lt;h1 id=&#34;什么是动态规划&#34;&gt;什么是动态规划&lt;/h1&gt;
-&lt;p&gt;动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。&lt;/p&gt;
+        <description>&lt;img src="https://example.com/p/dynamic-programming/dynamicProgramming.png" alt="Featured image of post dynamic programming" /&gt;&lt;img src=&#34;./dp.jpg&#34; alt=&#34;動態規劃&#34;&gt;
+# 什么是动态规划
+动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。
 &lt;p&gt;所以动态规划中每一个状态一定是由上一个状态推导出来的，这一点就区分于贪心，贪心没有状态推导，而是从局部直接选最优的，&lt;/p&gt;
 &lt;p&gt;动态规划的解题步骤
 做动规题目的时候，很多同学会陷入一个误区，就是以为把状态转移公式背下来，照葫芦画瓢改改，就开始写代码，甚至把题目AC之后，都不太清楚dp[i]表示的是什么。&lt;/p&gt;

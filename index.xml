@@ -7,7 +7,131 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Binary Tree</title>
+        <link>https://example.com/p/binary-tree/</link>
+        <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/binary-tree/</guid>
+        <description>&lt;img src="https://example.com/p/binary-tree/bt.png" alt="Featured image of post Binary Tree" /&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E6%80%BB%E7%BB%93%E7%AF%87.html#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;代碼隨想錄.二叉樹總結&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;二叉樹.png&#34; alt=&#34;二叉樹&#34; /&gt;
+  &lt;br/&gt;
+   二叉樹題型
+&lt;/p&gt;
+&lt;h1 id=&#34;二叉树的理论基础&#34;&gt;二叉树的理论基础&lt;/h1&gt;
+&lt;p&gt;关于二叉树，你该了解这些！ (opens new window)：二叉树的种类、存储方式、遍历方式、定义方式&lt;/p&gt;
+&lt;h1 id=&#34;二叉树的遍历方式&#34;&gt;二叉树的遍历方式&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;深度优先遍历&lt;/strong&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/%e4%ba%8c%e5%8f%89%e6%a8%b9%e7%9a%84%e9%81%8d%e6%ad%b7%e7%9a%84%e9%81%9e%e6%ad%b8%e5%af%a6%e7%8f%be%e8%88%87%e8%bf%ad%e4%bb%a3%e5%af%a6%e7%8f%be/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;二叉樹的遍歷&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;二叉树：前中后序递归法 (opens new window)：递归三部曲初次亮相&lt;/p&gt;
+&lt;p&gt;二叉树：前中后序迭代法（一） (opens new window)：通过栈模拟递归&lt;/p&gt;
+&lt;p&gt;二叉树：前中后序迭代法（二）统一风格(opens new window)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;广度优先遍历&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;二叉树的层序遍历 (opens new window)：通过队列模拟&lt;/p&gt;
+&lt;h1 id=&#34;求二叉树的属性&#34;&gt;求二叉树的属性&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：是否对称(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，比较的是根节点的左子树与右子树是不是相互翻转&lt;/p&gt;
+&lt;p&gt;迭代：使用队列/栈将两个节点顺序放入容器中进行比较&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求最大深度(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，求根节点最大高度就是最大深度，通过递归函数的返回值做计算树的高度&lt;/p&gt;
+&lt;p&gt;迭代：层序遍历&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求最小深度(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，求根节点最小高度就是最小深度，注意最小深度的定义&lt;/p&gt;
+&lt;p&gt;迭代：层序遍历&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求有多少个节点(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，通过递归函数的返回值计算节点数量&lt;/p&gt;
+&lt;p&gt;迭代：层序遍历&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：是否平衡(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，注意后序求高度和前序求深度，递归过程判断高度差&lt;/p&gt;
+&lt;p&gt;迭代：效率很低，不推荐&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：找所有路径(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，方便让父节点指向子节点，涉及回溯处理根节点到叶子的所有路径&lt;/p&gt;
+&lt;p&gt;迭代：一个栈模拟递归，一个栈来存放对应的遍历路径&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：递归中如何隐藏着回溯(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;详解二叉树：找所有路径 (opens new window)中递归如何隐藏着回溯&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求左叶子之和(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，必须三层约束条件，才能判断是否是左叶子。&lt;/p&gt;
+&lt;p&gt;迭代：直接模拟后序遍历&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求左下角的值(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：顺序无所谓，优先左孩子搜索，同时找深度最大的叶子节点。&lt;/p&gt;
+&lt;p&gt;迭代：层序遍历找最后一行最左边&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉树：求路径总和(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：顺序无所谓，递归函数返回值为bool类型是为了搜索一条边，没有返回值是搜索整棵树。&lt;/p&gt;
+&lt;p&gt;迭代：栈里元素不仅要记录节点指针，还要记录从头结点到该节点的路径数值总和&lt;/p&gt;
+&lt;h1 id=&#34;二叉树的修改与构造&#34;&gt;二叉树的修改与构造&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;翻转二叉树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，交换左右孩子&lt;/p&gt;
+&lt;p&gt;迭代：直接模拟前序遍历&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;构造二叉树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，重点在于找分割点，分左右区间构造&lt;/p&gt;
+&lt;p&gt;迭代：比较复杂，意义不大&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;构造最大的二叉树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，分割点为数组最大值，分左右区间构造&lt;/p&gt;
+&lt;p&gt;迭代：比较复杂，意义不大&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;合并两个二叉树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，同时操作两个树的节点，注意合并的规则&lt;/p&gt;
+&lt;p&gt;迭代：使用队列，类似层序遍历&lt;/p&gt;
+&lt;p&gt;#求二叉搜索树的属性&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉搜索树中的搜索(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：二叉搜索树的递归是有方向的&lt;/p&gt;
+&lt;p&gt;迭代：因为有方向，所以迭代法很简单&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;是不是二叉搜索树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：中序，相当于变成了判断一个序列是不是递增的&lt;/p&gt;
+&lt;p&gt;迭代：模拟中序，逻辑相同&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;求二叉搜索树的最小绝对差(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：中序，双指针操作&lt;/p&gt;
+&lt;p&gt;迭代：模拟中序，逻辑相同&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;求二叉搜索树的众数(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：中序，清空结果集的技巧，遍历一遍便可求众数集合&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉搜索树转成累加树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：中序，双指针操作累加&lt;/p&gt;
+&lt;p&gt;迭代：模拟中序，逻辑相同&lt;/p&gt;
+&lt;h1 id=&#34;二叉树公共祖先问题&#34;&gt;二叉树公共祖先问题&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;二叉树的公共祖先问题(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：后序，回溯，找到左子树出现目标值，右子树节点目标值的节点。&lt;/p&gt;
+&lt;p&gt;迭代：不适合模拟回溯&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉搜索树的公共祖先问题(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：顺序无所谓，如果节点的数值在目标区间就是最近公共祖先&lt;/p&gt;
+&lt;p&gt;迭代：按序遍历&lt;/p&gt;
+&lt;h1 id=&#34;二叉搜索树的修改与构造&#34;&gt;二叉搜索树的修改与构造&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;二叉搜索树中的插入操作(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：顺序无所谓，通过递归函数返回值添加节点&lt;/p&gt;
+&lt;p&gt;迭代：按序遍历，需要记录插入父节点，这样才能做插入操作&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二叉搜索树中的删除操作(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，想清楚删除非叶子节点的情况&lt;/p&gt;
+&lt;p&gt;迭代：有序遍历，较复杂&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;修剪二叉搜索树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，通过递归函数返回值删除节点&lt;/p&gt;
+&lt;p&gt;迭代：有序遍历，较复杂&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;构造二叉搜索树(opens new window)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;递归：前序，数组中间节点分割&lt;/p&gt;
+&lt;p&gt;迭代：较复杂，通过三个队列来模拟&lt;/p&gt;
+&lt;h1 id=&#34;阶段总结&#34;&gt;阶段总结&lt;/h1&gt;
+&lt;p&gt;大家以上题目都做过了，也一定要看如下阶段小结。&lt;/p&gt;
+&lt;p&gt;本周小结！（二叉树系列一）(opens new window)
+本周小结！（二叉树系列二）(opens new window)
+本周小结！（二叉树系列三）(opens new window)
+本周小结！（二叉树系列四）(opens new window)&lt;/p&gt;
+&lt;h1 id=&#34;最后总结&#34;&gt;最后总结&lt;/h1&gt;
+&lt;p&gt;在二叉树题目选择什么遍历顺序是不少同学头疼的事情，我们做了这么多二叉树的题目了，Carl给大家大体分分类。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;涉及到二叉树的构造，无论普通二叉树还是二叉搜索树一定前序，都是先构造中节点。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;求普通二叉树的属性，一般是后序，一般要通过递归函数的返回值做计算。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;求二叉搜索树的属性，一定是中序了，要不白瞎了有序性了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;注意在普通二叉树的属性中，我用的是一般为后序，例如单纯求深度就用前序，二叉树：找所有路径 (opens new window)也用了前序，这是为了方便让父节点指向子节点。&lt;/p&gt;
+&lt;p&gt;所以求普通二叉树的属性还是要具体问题具体分析。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;binaryTree.png&#34; alt=&#34;二叉樹&#34; /&gt;
+  &lt;br/&gt;
+   binaryTree 問題
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Binary Tree Traversal</title>
         <link>https://example.com/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/</link>
         <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
@@ -669,8 +793,9 @@
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/dynamic-programming/</guid>
-        <description>&lt;img src="https://example.com/p/dynamic-programming/dp.jpg" alt="Featured image of post dynamic programming" /&gt;&lt;h1 id=&#34;什么是动态规划&#34;&gt;什么是动态规划&lt;/h1&gt;
-&lt;p&gt;动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。&lt;/p&gt;
+        <description>&lt;img src="https://example.com/p/dynamic-programming/dynamicProgramming.png" alt="Featured image of post dynamic programming" /&gt;&lt;img src=&#34;./dp.jpg&#34; alt=&#34;動態規劃&#34;&gt;
+# 什么是动态规划
+动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。
 &lt;p&gt;所以动态规划中每一个状态一定是由上一个状态推导出来的，这一点就区分于贪心，贪心没有状态推导，而是从局部直接选最优的，&lt;/p&gt;
 &lt;p&gt;动态规划的解题步骤
 做动规题目的时候，很多同学会陷入一个误区，就是以为把状态转移公式背下来，照葫芦画瓢改改，就开始写代码，甚至把题目AC之后，都不太清楚dp[i]表示的是什么。&lt;/p&gt;
@@ -710,7 +835,8 @@
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/greedy-algorithm/</guid>
-        <description>&lt;img src="https://example.com/p/greedy-algorithm/greedyAlgorithm.png" alt="Featured image of post greedy algorithm" /&gt;&lt;h1 id=&#34;什么是贪心&#34;&gt;什么是贪心&lt;/h1&gt;
+        <description>&lt;img src="https://example.com/p/greedy-algorithm/greedy.png" alt="Featured image of post greedy algorithm" /&gt;&lt;img src=&#34;./greedyAlgorithm.png&#34; name=&#34;greedyAlgorithm&#34;&gt;
+&lt;h1 id=&#34;什么是贪心&#34;&gt;什么是贪心&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;贪心的本质是选择每一阶段的局部最优，从而达到全局最优。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;贪心的套路什么时候用贪心&#34;&gt;贪心的套路（什么时候用贪心）&lt;/h1&gt;
 &lt;p&gt;很多同学做贪心的题目的时候，想不出来是贪心，想知道有没有什么套路可以一看就看出来是贪心。&lt;/p&gt;
@@ -723,11 +849,11 @@
 &lt;p&gt;&lt;strong&gt;手动模拟一下感觉可以局部最优推出整体最优，而且想不到反例，那么就试一试贪心。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;贪心一般解题步骤&#34;&gt;贪心一般解题步骤&lt;/h1&gt;
 &lt;p&gt;贪心算法一般分为如下四步：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. 将问题分解为若干个子问题
-2. 找出适合的贪心策略
-3. 求解每一个子问题的最优解
-4. 将局部最优解堆叠成全局最优解&lt;/strong&gt;
-这个四步其实过于理论化了，我们平时在做贪心类的题目 很难去按照这四步去思考，真是有点“鸡肋”。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 将问题分解为若干个子问题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 找出适合的贪心策略&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 求解每一个子问题的最优解&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 将局部最优解堆叠成全局最优解&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个四步其实过于理论化了，我们平时在做贪心类的题目 很难去按照这四步去思考，真是有点“鸡肋”。&lt;/p&gt;
 &lt;p&gt;做题的时候，只要想清楚 局部最优 是什么，如果推导出全局最优，其实就够了。&lt;/p&gt;
 &lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
 &lt;p&gt;本篇给出了什么是贪心以及大家关心的贪心算法固定套路。&lt;/p&gt;
