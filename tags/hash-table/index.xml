@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hash-Table on thatkrisyang</title>
-        <link>https://example.com/tags/hash-table/</link>
+        <link>https://kris0325.github.io/tags/hash-table/</link>
         <description>Recent content in Hash-Table on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/hash-table/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/hash-table/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>349. Intersection of Two Arrays</title>
-        <link>https://example.com/p/349.-intersection-of-two-arrays/</link>
+        <link>https://kris0325.github.io/p/349.-intersection-of-two-arrays/</link>
         <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/349.-intersection-of-two-arrays/</guid>
-        <description>&lt;img src="https://example.com/p/349.-intersection-of-two-arrays/349.png" alt="Featured image of post 349. Intersection of Two Arrays" /&gt;&lt;blockquote&gt;
+        <guid>https://kris0325.github.io/p/349.-intersection-of-two-arrays/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/349.-intersection-of-two-arrays/349.png" alt="Featured image of post 349. Intersection of Two Arrays" /&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/intersection-of-two-arrays/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/intersection-of-two-arrays/description/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

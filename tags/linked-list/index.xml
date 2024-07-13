@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Linked-List on thatkrisyang</title>
-        <link>https://example.com/tags/linked-list/</link>
+        <link>https://kris0325.github.io/tags/linked-list/</link>
         <description>Recent content in Linked-List on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/linked-list/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/linked-list/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>142. Linked List Cycle II</title>
-        <link>https://example.com/p/142.-linked-list-cycle-ii/</link>
+        <link>https://kris0325.github.io/p/142.-linked-list-cycle-ii/</link>
         <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/142.-linked-list-cycle-ii/</guid>
-        <description>&lt;img src="https://example.com/p/142.-linked-list-cycle-ii/142.png" alt="Featured image of post 142. Linked List Cycle II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/142.-linked-list-cycle-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/142.-linked-list-cycle-ii/142.png" alt="Featured image of post 142. Linked List Cycle II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -271,11 +271,11 @@
         </item>
         <item>
         <title>19. Remove Nth Node From End of List</title>
-        <link>https://example.com/p/19.-remove-nth-node-from-end-of-list/</link>
+        <link>https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/</link>
         <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/19.-remove-nth-node-from-end-of-list/</guid>
-        <description>&lt;img src="https://example.com/p/19.-remove-nth-node-from-end-of-list/19.png" alt="Featured image of post 19. Remove Nth Node From End of List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/19.png" alt="Featured image of post 19. Remove Nth Node From End of List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -559,11 +559,11 @@
         </item>
         <item>
         <title>160. Intersection of Two Linked Lists</title>
-        <link>https://example.com/p/160.-intersection-of-two-linked-lists/</link>
+        <link>https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/</link>
         <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/160.-intersection-of-two-linked-lists/</guid>
-        <description>&lt;img src="https://example.com/p/160.-intersection-of-two-linked-lists/160.png" alt="Featured image of post 160. Intersection of Two Linked Lists" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/160.png" alt="Featured image of post 160. Intersection of Two Linked Lists" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -973,11 +973,11 @@
         </item>
         <item>
         <title>24. Swap Nodes in Pairs</title>
-        <link>https://example.com/p/24.-swap-nodes-in-pairs/</link>
+        <link>https://kris0325.github.io/p/24.-swap-nodes-in-pairs/</link>
         <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/24.-swap-nodes-in-pairs/</guid>
-        <description>&lt;img src="https://example.com/p/24.-swap-nodes-in-pairs/24.jpg" alt="Featured image of post 24. Swap Nodes in Pairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/24.-swap-nodes-in-pairs/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/24.-swap-nodes-in-pairs/24.jpg" alt="Featured image of post 24. Swap Nodes in Pairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -1177,11 +1177,11 @@
         </item>
         <item>
         <title>707. Design Linked List</title>
-        <link>https://example.com/p/707.-design-linked-list/</link>
+        <link>https://kris0325.github.io/p/707.-design-linked-list/</link>
         <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/707.-design-linked-list/</guid>
-        <description>&lt;img src="https://example.com/p/707.-design-linked-list/707.png" alt="Featured image of post 707. Design Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/707.-design-linked-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/707.-design-linked-list/707.png" alt="Featured image of post 707. Design Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -1501,11 +1501,11 @@
         </item>
         <item>
         <title>206. Reverse Linked List</title>
-        <link>https://example.com/p/206.-reverse-linked-list/</link>
+        <link>https://kris0325.github.io/p/206.-reverse-linked-list/</link>
         <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/206.-reverse-linked-list/</guid>
-        <description>&lt;img src="https://example.com/p/206.-reverse-linked-list/206.png" alt="Featured image of post 206. Reverse Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/206.-reverse-linked-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/206.-reverse-linked-list/206.png" alt="Featured image of post 206. Reverse Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -1703,11 +1703,11 @@
         </item>
         <item>
         <title>203. Remove Linked List Elements</title>
-        <link>https://example.com/p/203.-remove-linked-list-elements/</link>
+        <link>https://kris0325.github.io/p/203.-remove-linked-list-elements/</link>
         <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/203.-remove-linked-list-elements/</guid>
-        <description>&lt;img src="https://example.com/p/203.-remove-linked-list-elements/203.png" alt="Featured image of post 203. Remove Linked List Elements" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/203.-remove-linked-list-elements/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/203.-remove-linked-list-elements/203.png" alt="Featured image of post 203. Remove Linked List Elements" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Example Category on thatkrisyang</title>
-        <link>https://example.com/categories/example-category/</link>
+        <link>https://kris0325.github.io/categories/example-category/</link>
         <description>Recent content in Example Category on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>thatkrisyang</copyright><atom:link href="https://example.com/categories/example-category/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>thatkrisyang</copyright><atom:link href="https://kris0325.github.io/categories/example-category/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -2,122 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on thatkrisyang</title>
-        <link>https://example.com/categories/</link>
+        <link>https://kris0325.github.io/categories/</link>
         <description>Recent content in Categories on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Leetcode</title>
-        <link>https://example.com/categories/leetcode/</link>
+        <link>https://kris0325.github.io/categories/leetcode/</link>
         <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/leetcode/</guid>
+        <guid>https://kris0325.github.io/categories/leetcode/</guid>
         <description></description>
         </item>
         <item>
         <title>Binary Tree</title>
-        <link>https://example.com/categories/binary-tree/</link>
+        <link>https://kris0325.github.io/categories/binary-tree/</link>
         <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/binary-tree/</guid>
+        <guid>https://kris0325.github.io/categories/binary-tree/</guid>
         <description></description>
         </item>
         <item>
         <title>DP</title>
-        <link>https://example.com/categories/dp/</link>
+        <link>https://kris0325.github.io/categories/dp/</link>
         <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/dp/</guid>
+        <guid>https://kris0325.github.io/categories/dp/</guid>
         <description></description>
         </item>
         <item>
         <title>Backtracking</title>
-        <link>https://example.com/categories/backtracking/</link>
+        <link>https://kris0325.github.io/categories/backtracking/</link>
         <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/backtracking/</guid>
+        <guid>https://kris0325.github.io/categories/backtracking/</guid>
         <description></description>
         </item>
         <item>
         <title>Queue</title>
-        <link>https://example.com/categories/queue/</link>
+        <link>https://kris0325.github.io/categories/queue/</link>
         <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/queue/</guid>
+        <guid>https://kris0325.github.io/categories/queue/</guid>
         <description></description>
         </item>
         <item>
         <title>Stack</title>
-        <link>https://example.com/categories/stack/</link>
+        <link>https://kris0325.github.io/categories/stack/</link>
         <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/stack/</guid>
+        <guid>https://kris0325.github.io/categories/stack/</guid>
         <description></description>
         </item>
         <item>
         <title>String</title>
-        <link>https://example.com/categories/string/</link>
+        <link>https://kris0325.github.io/categories/string/</link>
         <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/string/</guid>
+        <guid>https://kris0325.github.io/categories/string/</guid>
         <description></description>
         </item>
         <item>
         <title>Travel</title>
-        <link>https://example.com/categories/travel/</link>
+        <link>https://kris0325.github.io/categories/travel/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/travel/</guid>
+        <guid>https://kris0325.github.io/categories/travel/</guid>
         <description></description>
         </item>
         <item>
         <title>Blog</title>
-        <link>https://example.com/categories/blog/</link>
+        <link>https://kris0325.github.io/categories/blog/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/blog/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Hong Kong</title>
-        <link>https://example.com/categories/hong-kong/</link>
-        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/hong-kong/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Syntax</title>
-        <link>https://example.com/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://example.com/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/themes/</guid>
+        <guid>https://kris0325.github.io/categories/blog/</guid>
         <description></description>
         </item>
         <item>
         <title>Example Category</title>
-        <link>https://example.com/categories/example-category/</link>
+        <link>https://kris0325.github.io/categories/example-category/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/example-category/</guid>
+        <guid>https://kris0325.github.io/categories/example-category/</guid>
         <description></description>
         </item>
         <item>
         <title>Test</title>
-        <link>https://example.com/categories/test/</link>
+        <link>https://kris0325.github.io/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/test/</guid>
-        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://kris0325.github.io/categories/test/</guid>
+        <description>&lt;img src="https://kris0325.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>

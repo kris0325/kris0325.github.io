@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Sliding Window on thatkrisyang</title>
-        <link>https://example.com/tags/sliding-window/</link>
+        <link>https://kris0325.github.io/tags/sliding-window/</link>
         <description>Recent content in Sliding Window on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/sliding-window/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/sliding-window/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>28. Find the Index of the First Occurrence in a String</title>
-        <link>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
+        <link>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
         <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
-        <description>&lt;img src="https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>thatkrisyang</title>
-        <link>https://example.com/</link>
+        <link>https://kris0325.github.io/</link>
         <description>Recent content on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Binary Tree</title>
-        <link>https://example.com/p/binary-tree/</link>
+        <link>https://kris0325.github.io/p/binary-tree/</link>
         <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/binary-tree/</guid>
-        <description>&lt;img src="https://example.com/p/binary-tree/bt.png" alt="Featured image of post Binary Tree" /&gt;&lt;blockquote&gt;
+        <guid>https://kris0325.github.io/p/binary-tree/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/binary-tree/bt.png" alt="Featured image of post Binary Tree" /&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E6%80%BB%E7%BB%93%E7%AF%87.html#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;代碼隨想錄.二叉樹總結&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -133,11 +133,11 @@
         </item>
         <item>
         <title>Binary Tree Traversal</title>
-        <link>https://example.com/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/</link>
+        <link>https://kris0325.github.io/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/</link>
         <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/</guid>
-        <description>&lt;img src="https://example.com/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/BinaryTreeTraversal.png" alt="Featured image of post Binary Tree Traversal" /&gt;&lt;h2 id=&#34;二叉樹的遍歷常規遞歸與迭代實現&#34;&gt;二叉樹的遍歷，常規遞歸與迭代實現&lt;/h2&gt;
+        <guid>https://kris0325.github.io/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/%E4%BA%8C%E5%8F%89%E6%A8%B9%E7%9A%84%E9%81%8D%E6%AD%B7%E7%9A%84%E9%81%9E%E6%AD%B8%E5%AF%A6%E7%8F%BE%E8%88%87%E8%BF%AD%E4%BB%A3%E5%AF%A6%E7%8F%BE/BinaryTreeTraversal.png" alt="Featured image of post Binary Tree Traversal" /&gt;&lt;h2 id=&#34;二叉樹的遍歷常規遞歸與迭代實現&#34;&gt;二叉樹的遍歷，常規遞歸與迭代實現&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;二叉樹前序遍歷&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/144.binary-tree-preorder-traversal.java/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;144.binary-tree-preorder-traversal.java&lt;/a&gt;&lt;/p&gt;
@@ -789,11 +789,11 @@
         </item>
         <item>
         <title>dynamic programming</title>
-        <link>https://example.com/p/dynamic-programming/</link>
+        <link>https://kris0325.github.io/p/dynamic-programming/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/dynamic-programming/</guid>
-        <description>&lt;img src="https://example.com/p/dynamic-programming/dynamicProgramming.png" alt="Featured image of post dynamic programming" /&gt;&lt;img src=&#34;./dp.jpg&#34; alt=&#34;動態規劃&#34;&gt;
+        <guid>https://kris0325.github.io/p/dynamic-programming/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/dynamic-programming/dynamicProgramming.png" alt="Featured image of post dynamic programming" /&gt;&lt;img src=&#34;./dp.jpg&#34; alt=&#34;動態規劃&#34;&gt;
 # 什么是动态规划
 动态规划，英文：Dynamic Programming，简称DP，如果某一问题有很多重叠子问题，使用动态规划是最有效的。
 &lt;p&gt;所以动态规划中每一个状态一定是由上一个状态推导出来的，这一点就区分于贪心，贪心没有状态推导，而是从局部直接选最优的，&lt;/p&gt;
@@ -831,11 +831,11 @@
         </item>
         <item>
         <title>greedy algorithm</title>
-        <link>https://example.com/p/greedy-algorithm/</link>
+        <link>https://kris0325.github.io/p/greedy-algorithm/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/greedy-algorithm/</guid>
-        <description>&lt;img src="https://example.com/p/greedy-algorithm/greedy.png" alt="Featured image of post greedy algorithm" /&gt;&lt;img src=&#34;./greedyAlgorithm.png&#34; name=&#34;greedyAlgorithm&#34;&gt;
+        <guid>https://kris0325.github.io/p/greedy-algorithm/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/greedy-algorithm/greedy.png" alt="Featured image of post greedy algorithm" /&gt;&lt;img src=&#34;./greedyAlgorithm.png&#34; name=&#34;greedyAlgorithm&#34;&gt;
 &lt;h1 id=&#34;什么是贪心&#34;&gt;什么是贪心&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;贪心的本质是选择每一阶段的局部最优，从而达到全局最优。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;贪心的套路什么时候用贪心&#34;&gt;贪心的套路（什么时候用贪心）&lt;/h1&gt;
@@ -863,11 +863,11 @@
         </item>
         <item>
         <title>501.find-mode-in-binary-search-tree.java</title>
-        <link>https://example.com/p/501.find-mode-in-binary-search-tree.java/</link>
+        <link>https://kris0325.github.io/p/501.find-mode-in-binary-search-tree.java/</link>
         <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/501.find-mode-in-binary-search-tree.java/</guid>
-        <description>&lt;img src="https://example.com/p/501.find-mode-in-binary-search-tree.java/501.png" alt="Featured image of post 501.find-mode-in-binary-search-tree.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/501.find-mode-in-binary-search-tree.java/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/501.find-mode-in-binary-search-tree.java/501.png" alt="Featured image of post 501.find-mode-in-binary-search-tree.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -1111,10 +1111,10 @@
         </item>
         <item>
         <title>105.construct-binary-tree-from-preorder-and-inorder-traversal.java</title>
-        <link>https://example.com/p/105.construct-binary-tree-from-preorder-and-inorder-traversal.java/</link>
+        <link>https://kris0325.github.io/p/105.construct-binary-tree-from-preorder-and-inorder-traversal.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/105.construct-binary-tree-from-preorder-and-inorder-traversal.java/</guid>
+        <guid>https://kris0325.github.io/p/105.construct-binary-tree-from-preorder-and-inorder-traversal.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -1295,10 +1295,10 @@
         </item>
         <item>
         <title>106.construct-binary-tree-from-inorder-and-postorder-traversal.java</title>
-        <link>https://example.com/p/106.construct-binary-tree-from-inorder-and-postorder-traversal.java/</link>
+        <link>https://kris0325.github.io/p/106.construct-binary-tree-from-inorder-and-postorder-traversal.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/106.construct-binary-tree-from-inorder-and-postorder-traversal.java/</guid>
+        <guid>https://kris0325.github.io/p/106.construct-binary-tree-from-inorder-and-postorder-traversal.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -1619,10 +1619,10 @@
         </item>
         <item>
         <title>108.convert-sorted-array-to-binary-search-tree.java</title>
-        <link>https://example.com/p/108.convert-sorted-array-to-binary-search-tree.java/</link>
+        <link>https://kris0325.github.io/p/108.convert-sorted-array-to-binary-search-tree.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/108.convert-sorted-array-to-binary-search-tree.java/</guid>
+        <guid>https://kris0325.github.io/p/108.convert-sorted-array-to-binary-search-tree.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -1733,10 +1733,10 @@
         </item>
         <item>
         <title>112.path-sum.java</title>
-        <link>https://example.com/p/112.path-sum.java/</link>
+        <link>https://kris0325.github.io/p/112.path-sum.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/112.path-sum.java/</guid>
+        <guid>https://kris0325.github.io/p/112.path-sum.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -1941,10 +1941,10 @@
         </item>
         <item>
         <title>113.path-sum-ii.java</title>
-        <link>https://example.com/p/113.path-sum-ii.java/</link>
+        <link>https://kris0325.github.io/p/113.path-sum-ii.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/113.path-sum-ii.java/</guid>
+        <guid>https://kris0325.github.io/p/113.path-sum-ii.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -2139,10 +2139,10 @@
         </item>
         <item>
         <title>236.lowest-common-ancestor-of-a-binary-tree.java</title>
-        <link>https://example.com/p/236.lowest-common-ancestor-of-a-binary-tree.java/</link>
+        <link>https://kris0325.github.io/p/236.lowest-common-ancestor-of-a-binary-tree.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/236.lowest-common-ancestor-of-a-binary-tree.java/</guid>
+        <guid>https://kris0325.github.io/p/236.lowest-common-ancestor-of-a-binary-tree.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -2279,10 +2279,10 @@
         </item>
         <item>
         <title>450.delete-node-in-a-bst.java</title>
-        <link>https://example.com/p/450.delete-node-in-a-bst.java/</link>
+        <link>https://kris0325.github.io/p/450.delete-node-in-a-bst.java/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/450.delete-node-in-a-bst.java/</guid>
+        <guid>https://kris0325.github.io/p/450.delete-node-in-a-bst.java/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -2657,11 +2657,11 @@
         </item>
         <item>
         <title>62. Unique Paths</title>
-        <link>https://example.com/p/62.-unique-paths/</link>
+        <link>https://kris0325.github.io/p/62.-unique-paths/</link>
         <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/62.-unique-paths/</guid>
-        <description>&lt;img src="https://example.com/p/62.-unique-paths/62.png" alt="Featured image of post 62. Unique Paths" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/62.-unique-paths/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/62.-unique-paths/62.png" alt="Featured image of post 62. Unique Paths" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -2787,11 +2787,11 @@
         </item>
         <item>
         <title>93. Restore IP Addresses</title>
-        <link>https://example.com/p/93.-restore-ip-addresses/</link>
+        <link>https://kris0325.github.io/p/93.-restore-ip-addresses/</link>
         <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/93.-restore-ip-addresses/</guid>
-        <description>&lt;img src="https://example.com/p/93.-restore-ip-addresses/93.png" alt="Featured image of post 93. Restore IP Addresses" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/93.-restore-ip-addresses/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/93.-restore-ip-addresses/93.png" alt="Featured image of post 93. Restore IP Addresses" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -3043,11 +3043,11 @@
         </item>
         <item>
         <title>102. Binary Tree Level Order Traversal</title>
-        <link>https://example.com/p/102.-binary-tree-level-order-traversal/</link>
+        <link>https://kris0325.github.io/p/102.-binary-tree-level-order-traversal/</link>
         <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/102.-binary-tree-level-order-traversal/</guid>
-        <description>&lt;img src="https://example.com/p/102.-binary-tree-level-order-traversal/102.png" alt="Featured image of post 102. Binary Tree Level Order Traversal" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/102.-binary-tree-level-order-traversal/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/102.-binary-tree-level-order-traversal/102.png" alt="Featured image of post 102. Binary Tree Level Order Traversal" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -3199,11 +3199,11 @@
         </item>
         <item>
         <title>144.binary-tree-preorder-traversal.java</title>
-        <link>https://example.com/p/144.binary-tree-preorder-traversal.java/</link>
+        <link>https://kris0325.github.io/p/144.binary-tree-preorder-traversal.java/</link>
         <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/144.binary-tree-preorder-traversal.java/</guid>
-        <description>&lt;img src="https://example.com/p/144.binary-tree-preorder-traversal.java/144.png" alt="Featured image of post 144.binary-tree-preorder-traversal.java" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/binary-tree-postorder-traversal/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/144.binary-tree-preorder-traversal.java/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/144.binary-tree-preorder-traversal.java/144.png" alt="Featured image of post 144.binary-tree-preorder-traversal.java" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/binary-tree-postorder-traversal/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/binary-tree-postorder-traversal/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -3419,11 +3419,11 @@
         </item>
         <item>
         <title>145.binary-tree-postorder-traversal.java</title>
-        <link>https://example.com/p/145.binary-tree-postorder-traversal.java/</link>
+        <link>https://kris0325.github.io/p/145.binary-tree-postorder-traversal.java/</link>
         <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/145.binary-tree-postorder-traversal.java/</guid>
-        <description>&lt;img src="https://example.com/p/145.binary-tree-postorder-traversal.java/145.png" alt="Featured image of post 145.binary-tree-postorder-traversal.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/145.binary-tree-postorder-traversal.java/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/145.binary-tree-postorder-traversal.java/145.png" alt="Featured image of post 145.binary-tree-postorder-traversal.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -3685,11 +3685,11 @@
         </item>
         <item>
         <title>94.binary-tree-inorder-traversal.java</title>
-        <link>https://example.com/p/94.binary-tree-inorder-traversal.java/</link>
+        <link>https://kris0325.github.io/p/94.binary-tree-inorder-traversal.java/</link>
         <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/94.binary-tree-inorder-traversal.java/</guid>
-        <description>&lt;img src="https://example.com/p/94.binary-tree-inorder-traversal.java/94.png" alt="Featured image of post 94.binary-tree-inorder-traversal.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/94.binary-tree-inorder-traversal.java/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/94.binary-tree-inorder-traversal.java/94.png" alt="Featured image of post 94.binary-tree-inorder-traversal.java" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -3935,11 +3935,11 @@
         </item>
         <item>
         <title>347. Top K Frequent Elements</title>
-        <link>https://example.com/p/347.-top-k-frequent-elements/</link>
+        <link>https://kris0325.github.io/p/347.-top-k-frequent-elements/</link>
         <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/347.-top-k-frequent-elements/</guid>
-        <description>&lt;img src="https://example.com/p/347.-top-k-frequent-elements/347.png" alt="Featured image of post 347. Top K Frequent Elements" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/top-k-frequent-elements/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/347.-top-k-frequent-elements/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/347.-top-k-frequent-elements/347.png" alt="Featured image of post 347. Top K Frequent Elements" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/top-k-frequent-elements/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/top-k-frequent-elements/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4109,11 +4109,11 @@
         </item>
         <item>
         <title>239. Sliding Window Maximum</title>
-        <link>https://example.com/p/239.-sliding-window-maximum/</link>
+        <link>https://kris0325.github.io/p/239.-sliding-window-maximum/</link>
         <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/239.-sliding-window-maximum/</guid>
-        <description>&lt;img src="https://example.com/p/239.-sliding-window-maximum/239.png" alt="Featured image of post 239. Sliding Window Maximum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/sliding-window-maximum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/239.-sliding-window-maximum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/239.-sliding-window-maximum/239.png" alt="Featured image of post 239. Sliding Window Maximum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/sliding-window-maximum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/sliding-window-maximum/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4339,11 +4339,11 @@
         </item>
         <item>
         <title>150. Evaluate Reverse Polish Notation</title>
-        <link>https://example.com/p/150.-evaluate-reverse-polish-notation/</link>
+        <link>https://kris0325.github.io/p/150.-evaluate-reverse-polish-notation/</link>
         <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/150.-evaluate-reverse-polish-notation/</guid>
-        <description>&lt;img src="https://example.com/p/150.-evaluate-reverse-polish-notation/150.png" alt="Featured image of post 150. Evaluate Reverse Polish Notation" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/evaluate-reverse-polish-notation/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/150.-evaluate-reverse-polish-notation/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/150.-evaluate-reverse-polish-notation/150.png" alt="Featured image of post 150. Evaluate Reverse Polish Notation" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/evaluate-reverse-polish-notation/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/evaluate-reverse-polish-notation/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4513,11 +4513,11 @@
         </item>
         <item>
         <title>1047. Remove All Adjacent Duplicates In String</title>
-        <link>https://example.com/p/1047.-remove-all-adjacent-duplicates-in-string/</link>
+        <link>https://kris0325.github.io/p/1047.-remove-all-adjacent-duplicates-in-string/</link>
         <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1047.-remove-all-adjacent-duplicates-in-string/</guid>
-        <description>&lt;img src="https://example.com/p/1047.-remove-all-adjacent-duplicates-in-string/1047.png" alt="Featured image of post 1047. Remove All Adjacent Duplicates In String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/1047.-remove-all-adjacent-duplicates-in-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/1047.-remove-all-adjacent-duplicates-in-string/1047.png" alt="Featured image of post 1047. Remove All Adjacent Duplicates In String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4721,11 +4721,11 @@
         </item>
         <item>
         <title>20. Valid Parentheses</title>
-        <link>https://example.com/p/20.-valid-parentheses/</link>
+        <link>https://kris0325.github.io/p/20.-valid-parentheses/</link>
         <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/20.-valid-parentheses/</guid>
-        <description>&lt;img src="https://example.com/p/20.-valid-parentheses/20.png" alt="Featured image of post 20. Valid Parentheses" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-parentheses/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/20.-valid-parentheses/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/20.-valid-parentheses/20.png" alt="Featured image of post 20. Valid Parentheses" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-parentheses/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/valid-parentheses/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4915,11 +4915,11 @@
         </item>
         <item>
         <title>225. Implement Stack using Queues</title>
-        <link>https://example.com/p/225.-implement-stack-using-queues/</link>
+        <link>https://kris0325.github.io/p/225.-implement-stack-using-queues/</link>
         <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/225.-implement-stack-using-queues/</guid>
-        <description>&lt;img src="https://example.com/p/225.-implement-stack-using-queues/225.png" alt="Featured image of post 225. Implement Stack using Queues" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/implement-stack-using-queues/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/225.-implement-stack-using-queues/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/225.-implement-stack-using-queues/225.png" alt="Featured image of post 225. Implement Stack using Queues" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/implement-stack-using-queues/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/implement-stack-using-queues/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -5121,11 +5121,11 @@
         </item>
         <item>
         <title>232. Implement Queue using Stacks</title>
-        <link>https://example.com/p/232.-implement-queue-using-stacks/</link>
+        <link>https://kris0325.github.io/p/232.-implement-queue-using-stacks/</link>
         <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/232.-implement-queue-using-stacks/</guid>
-        <description>&lt;img src="https://example.com/p/232.-implement-queue-using-stacks/232.png" alt="Featured image of post 232. Implement Queue using Stacks" /&gt;&lt;p&gt;&amp;lt; &lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/implement-queue-using-stacks/description/%3e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/232.-implement-queue-using-stacks/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/232.-implement-queue-using-stacks/232.png" alt="Featured image of post 232. Implement Queue using Stacks" /&gt;&lt;p&gt;&amp;lt; &lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/implement-queue-using-stacks/description/%3e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/implement-queue-using-stacks/description/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -5325,11 +5325,11 @@
         </item>
         <item>
         <title>151. Reverse Words in a String</title>
-        <link>https://example.com/p/151.-reverse-words-in-a-string/</link>
+        <link>https://kris0325.github.io/p/151.-reverse-words-in-a-string/</link>
         <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/151.-reverse-words-in-a-string/</guid>
-        <description>&lt;img src="https://example.com/p/151.-reverse-words-in-a-string/151.png" alt="Featured image of post 151. Reverse Words in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-words-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/151.-reverse-words-in-a-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/151.-reverse-words-in-a-string/151.png" alt="Featured image of post 151. Reverse Words in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-words-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-words-in-a-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;相同類型：
@@ -5653,11 +5653,11 @@
         </item>
         <item>
         <title>28. Find the Index of the First Occurrence in a String</title>
-        <link>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
+        <link>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
         <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
-        <description>&lt;img src="https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -5789,11 +5789,11 @@
         </item>
         <item>
         <title>344. Reverse String</title>
-        <link>https://example.com/p/344.-reverse-string/</link>
+        <link>https://kris0325.github.io/p/344.-reverse-string/</link>
         <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/344.-reverse-string/</guid>
-        <description>&lt;img src="https://example.com/p/344.-reverse-string/344.png" alt="Featured image of post 344. Reverse String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/344.-reverse-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/344.-reverse-string/344.png" alt="Featured image of post 344. Reverse String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -5859,11 +5859,11 @@
         </item>
         <item>
         <title>18. 4Sum</title>
-        <link>https://example.com/p/18.-4sum/</link>
+        <link>https://kris0325.github.io/p/18.-4sum/</link>
         <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/18.-4sum/</guid>
-        <description>&lt;img src="https://example.com/p/18.-4sum/18.png" alt="Featured image of post 18. 4Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/4sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/18.-4sum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/18.-4sum/18.png" alt="Featured image of post 18. 4Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/4sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/4sum/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -6082,11 +6082,11 @@
         </item>
         <item>
         <title>541. Reverse String II</title>
-        <link>https://example.com/p/541.-reverse-string-ii/</link>
+        <link>https://kris0325.github.io/p/541.-reverse-string-ii/</link>
         <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/541.-reverse-string-ii/</guid>
-        <description>&lt;img src="https://example.com/p/541.-reverse-string-ii/541.png" alt="Featured image of post 541. Reverse String II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/541.-reverse-string-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/541.-reverse-string-ii/541.png" alt="Featured image of post 541. Reverse String II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-string-ii/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -6223,11 +6223,11 @@
         </item>
         <item>
         <title>15. 3Sum</title>
-        <link>https://example.com/p/15.-3sum/</link>
+        <link>https://kris0325.github.io/p/15.-3sum/</link>
         <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/15.-3sum/</guid>
-        <description>&lt;img src="https://example.com/p/15.-3sum/15.png" alt="Featured image of post 15. 3Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/3sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/15.-3sum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/15.-3sum/15.png" alt="Featured image of post 15. 3Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/3sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/3sum/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -6587,11 +6587,11 @@
         </item>
         <item>
         <title>383. Ransom Note</title>
-        <link>https://example.com/p/383.-ransom-note/</link>
+        <link>https://kris0325.github.io/p/383.-ransom-note/</link>
         <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/383.-ransom-note/</guid>
-        <description>&lt;img src="https://example.com/p/383.-ransom-note/383.png" alt="Featured image of post 383. Ransom Note" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/ransom-note/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/383.-ransom-note/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/383.-ransom-note/383.png" alt="Featured image of post 383. Ransom Note" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/ransom-note/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/ransom-note/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -6849,11 +6849,11 @@
         </item>
         <item>
         <title>1. Two Sum</title>
-        <link>https://example.com/p/1.-two-sum/</link>
+        <link>https://kris0325.github.io/p/1.-two-sum/</link>
         <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1.-two-sum/</guid>
-        <description>&lt;img src="https://example.com/p/1.-two-sum/1.png" alt="Featured image of post 1. Two Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/two-sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/1.-two-sum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/1.-two-sum/1.png" alt="Featured image of post 1. Two Sum" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/two-sum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/two-sum/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -6979,11 +6979,11 @@
         </item>
         <item>
         <title>454. 4Sum II</title>
-        <link>https://example.com/p/454.-4sum-ii/</link>
+        <link>https://kris0325.github.io/p/454.-4sum-ii/</link>
         <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/454.-4sum-ii/</guid>
-        <description>&lt;img src="https://example.com/p/454.-4sum-ii/454.png" alt="Featured image of post 454. 4Sum II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/4sum-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/454.-4sum-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/454.-4sum-ii/454.png" alt="Featured image of post 454. 4Sum II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/4sum-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/4sum-ii/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7135,11 +7135,11 @@
         </item>
         <item>
         <title>202. Happy Number</title>
-        <link>https://example.com/p/202.-happy-number/</link>
+        <link>https://kris0325.github.io/p/202.-happy-number/</link>
         <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/202.-happy-number/</guid>
-        <description>&lt;img src="https://example.com/p/202.-happy-number/202.png" alt="Featured image of post 202. Happy Number" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/happy-number/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/202.-happy-number/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/202.-happy-number/202.png" alt="Featured image of post 202. Happy Number" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/happy-number/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/happy-number/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7303,11 +7303,11 @@
         </item>
         <item>
         <title>349. Intersection of Two Arrays</title>
-        <link>https://example.com/p/349.-intersection-of-two-arrays/</link>
+        <link>https://kris0325.github.io/p/349.-intersection-of-two-arrays/</link>
         <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/349.-intersection-of-two-arrays/</guid>
-        <description>&lt;img src="https://example.com/p/349.-intersection-of-two-arrays/349.png" alt="Featured image of post 349. Intersection of Two Arrays" /&gt;&lt;blockquote&gt;
+        <guid>https://kris0325.github.io/p/349.-intersection-of-two-arrays/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/349.-intersection-of-two-arrays/349.png" alt="Featured image of post 349. Intersection of Two Arrays" /&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/intersection-of-two-arrays/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/intersection-of-two-arrays/description/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -7451,11 +7451,11 @@
         </item>
         <item>
         <title>242. Valid Anagram</title>
-        <link>https://example.com/p/242.-valid-anagram/</link>
+        <link>https://kris0325.github.io/p/242.-valid-anagram/</link>
         <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/242.-valid-anagram/</guid>
-        <description>&lt;img src="https://example.com/p/242.-valid-anagram/242.png" alt="Featured image of post 242. Valid Anagram" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-anagram/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/242.-valid-anagram/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/242.-valid-anagram/242.png" alt="Featured image of post 242. Valid Anagram" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-anagram/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/valid-anagram/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7605,11 +7605,11 @@
         </item>
         <item>
         <title>142. Linked List Cycle II</title>
-        <link>https://example.com/p/142.-linked-list-cycle-ii/</link>
+        <link>https://kris0325.github.io/p/142.-linked-list-cycle-ii/</link>
         <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/142.-linked-list-cycle-ii/</guid>
-        <description>&lt;img src="https://example.com/p/142.-linked-list-cycle-ii/142.png" alt="Featured image of post 142. Linked List Cycle II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/142.-linked-list-cycle-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/142.-linked-list-cycle-ii/142.png" alt="Featured image of post 142. Linked List Cycle II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -7867,11 +7867,11 @@
         </item>
         <item>
         <title>19. Remove Nth Node From End of List</title>
-        <link>https://example.com/p/19.-remove-nth-node-from-end-of-list/</link>
+        <link>https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/</link>
         <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/19.-remove-nth-node-from-end-of-list/</guid>
-        <description>&lt;img src="https://example.com/p/19.-remove-nth-node-from-end-of-list/19.png" alt="Featured image of post 19. Remove Nth Node From End of List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/19.-remove-nth-node-from-end-of-list/19.png" alt="Featured image of post 19. Remove Nth Node From End of List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -8155,11 +8155,11 @@
         </item>
         <item>
         <title>160. Intersection of Two Linked Lists</title>
-        <link>https://example.com/p/160.-intersection-of-two-linked-lists/</link>
+        <link>https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/</link>
         <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/160.-intersection-of-two-linked-lists/</guid>
-        <description>&lt;img src="https://example.com/p/160.-intersection-of-two-linked-lists/160.png" alt="Featured image of post 160. Intersection of Two Linked Lists" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/160.-intersection-of-two-linked-lists/160.png" alt="Featured image of post 160. Intersection of Two Linked Lists" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -8569,11 +8569,11 @@
         </item>
         <item>
         <title>24. Swap Nodes in Pairs</title>
-        <link>https://example.com/p/24.-swap-nodes-in-pairs/</link>
+        <link>https://kris0325.github.io/p/24.-swap-nodes-in-pairs/</link>
         <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/24.-swap-nodes-in-pairs/</guid>
-        <description>&lt;img src="https://example.com/p/24.-swap-nodes-in-pairs/24.jpg" alt="Featured image of post 24. Swap Nodes in Pairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/24.-swap-nodes-in-pairs/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/24.-swap-nodes-in-pairs/24.jpg" alt="Featured image of post 24. Swap Nodes in Pairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -8773,11 +8773,11 @@
         </item>
         <item>
         <title>707. Design Linked List</title>
-        <link>https://example.com/p/707.-design-linked-list/</link>
+        <link>https://kris0325.github.io/p/707.-design-linked-list/</link>
         <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/707.-design-linked-list/</guid>
-        <description>&lt;img src="https://example.com/p/707.-design-linked-list/707.png" alt="Featured image of post 707. Design Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/707.-design-linked-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/707.-design-linked-list/707.png" alt="Featured image of post 707. Design Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -9097,11 +9097,11 @@
         </item>
         <item>
         <title>206. Reverse Linked List</title>
-        <link>https://example.com/p/206.-reverse-linked-list/</link>
+        <link>https://kris0325.github.io/p/206.-reverse-linked-list/</link>
         <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/206.-reverse-linked-list/</guid>
-        <description>&lt;img src="https://example.com/p/206.-reverse-linked-list/206.png" alt="Featured image of post 206. Reverse Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/206.-reverse-linked-list/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/206.-reverse-linked-list/206.png" alt="Featured image of post 206. Reverse Linked List" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -9299,11 +9299,11 @@
         </item>
         <item>
         <title>203. Remove Linked List Elements</title>
-        <link>https://example.com/p/203.-remove-linked-list-elements/</link>
+        <link>https://kris0325.github.io/p/203.-remove-linked-list-elements/</link>
         <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/203.-remove-linked-list-elements/</guid>
-        <description>&lt;img src="https://example.com/p/203.-remove-linked-list-elements/203.png" alt="Featured image of post 203. Remove Linked List Elements" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/203.-remove-linked-list-elements/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/203.-remove-linked-list-elements/203.png" alt="Featured image of post 203. Remove Linked List Elements" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -9525,11 +9525,11 @@
         </item>
         <item>
         <title>59. Spiral Matrix II</title>
-        <link>https://example.com/p/59.-spiral-matrix-ii/</link>
+        <link>https://kris0325.github.io/p/59.-spiral-matrix-ii/</link>
         <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/59.-spiral-matrix-ii/</guid>
-        <description>&lt;img src="https://example.com/p/59.-spiral-matrix-ii/59.png" alt="Featured image of post 59. Spiral Matrix II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/59.-spiral-matrix-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/59.-spiral-matrix-ii/59.png" alt="Featured image of post 59. Spiral Matrix II" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -9735,11 +9735,11 @@
         </item>
         <item>
         <title>209. Minimum Size Subarray Sum</title>
-        <link>https://example.com/p/209.-minimum-size-subarray-sum/</link>
+        <link>https://kris0325.github.io/p/209.-minimum-size-subarray-sum/</link>
         <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/209.-minimum-size-subarray-sum/</guid>
-        <description>&lt;img src="https://example.com/p/209.-minimum-size-subarray-sum/209.png" alt="Featured image of post 209. Minimum Size Subarray Sum" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/209.-minimum-size-subarray-sum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/209.-minimum-size-subarray-sum/209.png" alt="Featured image of post 209. Minimum Size Subarray Sum" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -9941,11 +9941,11 @@
         </item>
         <item>
         <title>977. Squares of a Sorted Array</title>
-        <link>https://example.com/p/977.-squares-of-a-sorted-array/</link>
+        <link>https://kris0325.github.io/p/977.-squares-of-a-sorted-array/</link>
         <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/977.-squares-of-a-sorted-array/</guid>
-        <description>&lt;img src="https://example.com/p/977.-squares-of-a-sorted-array/977.png" alt="Featured image of post 977. Squares of a Sorted Array" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/977.-squares-of-a-sorted-array/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/977.-squares-of-a-sorted-array/977.png" alt="Featured image of post 977. Squares of a Sorted Array" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -10131,11 +10131,11 @@
         </item>
         <item>
         <title>27. Remove Element</title>
-        <link>https://example.com/p/27.-remove-element/</link>
+        <link>https://kris0325.github.io/p/27.-remove-element/</link>
         <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/27.-remove-element/</guid>
-        <description>&lt;img src="https://example.com/p/27.-remove-element/27.png" alt="Featured image of post 27. Remove Element" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/27.-remove-element/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/27.-remove-element/27.png" alt="Featured image of post 27. Remove Element" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -10411,11 +10411,11 @@
         </item>
         <item>
         <title>704. Binary Search</title>
-        <link>https://example.com/p/704.-binary-search/</link>
+        <link>https://kris0325.github.io/p/704.-binary-search/</link>
         <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/704.-binary-search/</guid>
-        <description>&lt;img src="https://example.com/p/704.-binary-search/704.png" alt="Featured image of post 704. Binary Search" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/704.-binary-search/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/704.-binary-search/704.png" alt="Featured image of post 704. Binary Search" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -10565,11 +10565,11 @@
         </item>
         <item>
         <title>509. Fibonacci Number</title>
-        <link>https://example.com/p/509.-fibonacci-number/</link>
+        <link>https://kris0325.github.io/p/509.-fibonacci-number/</link>
         <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/509.-fibonacci-number/</guid>
-        <description>&lt;img src="https://example.com/p/509.-fibonacci-number/509.png" alt="Featured image of post 509. Fibonacci Number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/509.-fibonacci-number/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/509.-fibonacci-number/509.png" alt="Featured image of post 509. Fibonacci Number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -10745,11 +10745,11 @@
         </item>
         <item>
         <title>70. Climbing Stairs</title>
-        <link>https://example.com/p/70.-climbing-stairs/</link>
+        <link>https://kris0325.github.io/p/70.-climbing-stairs/</link>
         <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/70.-climbing-stairs/</guid>
-        <description>&lt;img src="https://example.com/p/70.-climbing-stairs/70.png" alt="Featured image of post 70. Climbing Stairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/70.-climbing-stairs/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/70.-climbing-stairs/70.png" alt="Featured image of post 70. Climbing Stairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -10899,11 +10899,11 @@
         </item>
         <item>
         <title>746. Min Cost Climbing Stairs</title>
-        <link>https://example.com/p/746.-min-cost-climbing-stairs/</link>
+        <link>https://kris0325.github.io/p/746.-min-cost-climbing-stairs/</link>
         <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/746.-min-cost-climbing-stairs/</guid>
-        <description>&lt;img src="https://example.com/p/746.-min-cost-climbing-stairs/746.png" alt="Featured image of post 746. Min Cost Climbing Stairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/746.-min-cost-climbing-stairs/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/746.-min-cost-climbing-stairs/746.png" alt="Featured image of post 746. Min Cost Climbing Stairs" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -11085,11 +11085,11 @@
         </item>
         <item>
         <title>784.Letter Case Permutation</title>
-        <link>https://example.com/p/784.letter-case-permutation/</link>
+        <link>https://kris0325.github.io/p/784.letter-case-permutation/</link>
         <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/784.letter-case-permutation/</guid>
-        <description>&lt;img src="https://example.com/p/784.letter-case-permutation/784.jpg" alt="Featured image of post 784.Letter Case Permutation" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/784.letter-case-permutation/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/784.letter-case-permutation/784.jpg" alt="Featured image of post 784.Letter Case Permutation" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -11289,11 +11289,11 @@
         </item>
         <item>
         <title>46.Permutations</title>
-        <link>https://example.com/p/46.permutations/</link>
+        <link>https://kris0325.github.io/p/46.permutations/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/46.permutations/</guid>
-        <description>&lt;img src="https://example.com/p/46.permutations/46.jpg" alt="Featured image of post 46.Permutations" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/46.permutations/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/46.permutations/46.jpg" alt="Featured image of post 46.Permutations" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -11533,11 +11533,11 @@
         </item>
         <item>
         <title>47.Permutations-ii</title>
-        <link>https://example.com/p/47.permutations-ii/</link>
+        <link>https://kris0325.github.io/p/47.permutations-ii/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/47.permutations-ii/</guid>
-        <description>&lt;img src="https://example.com/p/47.permutations-ii/47.jpg" alt="Featured image of post 47.Permutations-ii" /&gt;&lt;blockquote&gt;
+        <guid>https://kris0325.github.io/p/47.permutations-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/47.permutations-ii/47.jpg" alt="Featured image of post 47.Permutations-ii" /&gt;&lt;blockquote&gt;
 &lt;p&gt;思路：这个解决方案结合了Permutations和Subsets II的思想。当输入数组中存在重复元素时，我们首先对输入数组进行排序，然后只有在以下情况下选择元素：它是第一个要选择的元素，它与前一个元素不同，或者它与前一个元素相同，但前一个元素也已经被选择。其余的解决方案遵循与没有重复元素的排列相同的逻辑，具有相同的时间和空间复杂度。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -11778,11 +11778,11 @@
         </item>
         <item>
         <title>故地重游</title>
-        <link>https://example.com/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/</link>
+        <link>https://kris0325.github.io/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/</guid>
-        <description>&lt;img src="https://example.com/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/The%20National%20Museum%20of%20Western%20Art.jpg" alt="Featured image of post 故地重游" /&gt;&lt;p&gt;時隔四年，故地重游。&lt;/p&gt;
+        <guid>https://kris0325.github.io/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/%E6%95%85%E5%9C%B0%E9%87%8D%E6%B8%B8/The%20National%20Museum%20of%20Western%20Art.jpg" alt="Featured image of post 故地重游" /&gt;&lt;p&gt;時隔四年，故地重游。&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
   &lt;img src=&#34;The National Museum of Western Art.jpg&#34; alt=&#34;Image 1&#34; /&gt;
   &lt;br/&gt;
@@ -11815,11 +11815,11 @@
         </item>
         <item>
         <title>216.Combination Sum III</title>
-        <link>https://example.com/p/216.combination-sum-iii/</link>
+        <link>https://kris0325.github.io/p/216.combination-sum-iii/</link>
         <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/216.combination-sum-iii/</guid>
-        <description>&lt;img src="https://example.com/p/216.combination-sum-iii/216.jpg" alt="Featured image of post 216.Combination Sum III" /&gt;&lt;p&gt;/*&lt;/p&gt;
+        <guid>https://kris0325.github.io/p/216.combination-sum-iii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/216.combination-sum-iii/216.jpg" alt="Featured image of post 216.Combination Sum III" /&gt;&lt;p&gt;/*&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;@lc app=leetcode id=216 lang=java&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
@@ -11982,11 +11982,11 @@
         </item>
         <item>
         <title>17.letter-combinations-of-a-phone-number</title>
-        <link>https://example.com/p/17.letter-combinations-of-a-phone-number/</link>
+        <link>https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/17.letter-combinations-of-a-phone-number/</guid>
-        <description>&lt;img src="https://example.com/p/17.letter-combinations-of-a-phone-number/17.png" alt="Featured image of post 17.letter-combinations-of-a-phone-number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/17.png" alt="Featured image of post 17.letter-combinations-of-a-phone-number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -12216,10 +12216,10 @@
         </item>
         <item>
         <title>39.combination-sum</title>
-        <link>https://example.com/p/39.combination-sum/</link>
+        <link>https://kris0325.github.io/p/39.combination-sum/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/39.combination-sum/</guid>
+        <guid>https://kris0325.github.io/p/39.combination-sum/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -12556,10 +12556,10 @@
         </item>
         <item>
         <title>40.combination-sum-ii</title>
-        <link>https://example.com/p/40.combination-sum-ii/</link>
+        <link>https://kris0325.github.io/p/40.combination-sum-ii/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/40.combination-sum-ii/</guid>
+        <guid>https://kris0325.github.io/p/40.combination-sum-ii/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -12798,10 +12798,10 @@
         </item>
         <item>
         <title>77.combinations</title>
-        <link>https://example.com/p/77.combinations/</link>
+        <link>https://kris0325.github.io/p/77.combinations/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/77.combinations/</guid>
+        <guid>https://kris0325.github.io/p/77.combinations/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -13024,10 +13024,10 @@
         </item>
         <item>
         <title>78.subsets</title>
-        <link>https://example.com/p/78.subsets/</link>
+        <link>https://kris0325.github.io/p/78.subsets/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/78.subsets/</guid>
+        <guid>https://kris0325.github.io/p/78.subsets/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -13280,11 +13280,11 @@
         </item>
         <item>
         <title>回溯算法</title>
-        <link>https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</link>
+        <link>https://kris0325.github.io/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</guid>
-        <description>&lt;img src="https://example.com/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking.jpg" alt="Featured image of post 回溯算法" /&gt;&lt;h1 id=&#34;回溯算法&#34;&gt;回溯算法&lt;/h1&gt;
+        <guid>https://kris0325.github.io/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/backtracking.jpg" alt="Featured image of post 回溯算法" /&gt;&lt;h1 id=&#34;回溯算法&#34;&gt;回溯算法&lt;/h1&gt;
 &lt;h2 id=&#34;什么是回溯法&#34;&gt;什么是回溯法&lt;/h2&gt;
 &lt;p&gt;回溯法也可以叫做回溯搜索法，它是一种搜索的方式。&lt;/p&gt;
 &lt;p&gt;在二叉树系列中，我们已经不止一次，提到了回溯，例如二叉树：以为使用了递归，其实还隐藏着回溯 (opens new window)。&lt;/p&gt;
@@ -13430,11 +13430,11 @@
         </item>
         <item>
         <title>Hong Kong Memories</title>
-        <link>https://example.com/p/hong-kong-memories/</link>
+        <link>https://kris0325.github.io/p/hong-kong-memories/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/hong-kong-memories/</guid>
-        <description>&lt;img src="https://example.com/p/hong-kong-memories/1.jpg" alt="Featured image of post Hong Kong Memories" /&gt;&lt;p&gt;和許多九十年代出生的人一樣，香港黃金時代的經典電影與流行歌曲一路伴隨我成長，走過夢幻的童年。 那時的香港正處於一個如夢似幻歲月流金的年代，是一座讓人對未來的充滿希望，令人著迷的城市。 於是想著有朝一日，定要去拜訪看看。&lt;/p&gt;
+        <guid>https://kris0325.github.io/p/hong-kong-memories/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/hong-kong-memories/1.jpg" alt="Featured image of post Hong Kong Memories" /&gt;&lt;p&gt;和許多九十年代出生的人一樣，香港黃金時代的經典電影與流行歌曲一路伴隨我成長，走過夢幻的童年。 那時的香港正處於一個如夢似幻歲月流金的年代，是一座讓人對未來的充滿希望，令人著迷的城市。 於是想著有朝一日，定要去拜訪看看。&lt;/p&gt;
 &lt;p&gt;工作後，去過很多地方，不知何時起漸漸覺得，和我所在的城市上海比，香港應該也只是另一座摩登都市，反而沒有很想去探索的慾望。 每次出門旅行，總是傾向去異國遊玩。&lt;/p&gt;
 &lt;p&gt;去年因為上海lockdown，讓我們錯過了整個春天。 被奪走的美好的東西，總想著找回來，那時候就再想，解封後一定要出趟遠門，去呼吸那新鮮自由的空氣！ 等過完春節回上海，一切都還未從lockdown中緩過神來，考慮到當時情況，香港便成了可選的首站城市。&lt;/p&gt;
 &lt;p&gt;2023年農曆正月初十，初春，咋暖還寒，帶著一路興奮與期待，我們坐上了上海飛往香港的飛機！&lt;/p&gt;
@@ -13491,11 +13491,11 @@
         </item>
         <item>
         <title>如何用 GitHub Pages &#43; Hugo 搭建个人博客</title>
-        <link>https://example.com/p/hello-world/</link>
+        <link>https://kris0325.github.io/p/hello-world/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/hello-world/</guid>
-        <description>&lt;img src="https://example.com/p/hello-world/fall.jpg" alt="Featured image of post 如何用 GitHub Pages &#43; Hugo 搭建个人博客" /&gt;&lt;h1 id=&#34;如何用-github-pages--hugo-搭建个人博客&#34;&gt;如何用 GitHub Pages + Hugo 搭建个人博客&lt;/h1&gt;
+        <guid>https://kris0325.github.io/p/hello-world/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/hello-world/fall.jpg" alt="Featured image of post 如何用 GitHub Pages &#43; Hugo 搭建个人博客" /&gt;&lt;h1 id=&#34;如何用-github-pages--hugo-搭建个人博客&#34;&gt;如何用 GitHub Pages + Hugo 搭建个人博客&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/#1-%E6%A6%82%E5%BF%B5%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/#1-%E6%A6%82%E5%BF%B5%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83&lt;/a&gt;&lt;/p&gt;
@@ -13639,11 +13639,11 @@ Hugo - Quick Start&lt;/p&gt;
         </item>
         <item>
         <title>90.subsets-ii</title>
-        <link>https://example.com/p/90.subsets-ii/</link>
+        <link>https://kris0325.github.io/p/90.subsets-ii/</link>
         <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/90.subsets-ii/</guid>
-        <description>&lt;img src="https://example.com/p/90.subsets-ii/90.jpg" alt="Featured image of post 90.subsets-ii" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/90.subsets-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/90.subsets-ii/90.jpg" alt="Featured image of post 90.subsets-ii" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -13903,11 +13903,11 @@ Hugo - Quick Start&lt;/p&gt;
         </item>
         <item>
         <title>Image gallery</title>
-        <link>https://example.com/p/image-gallery/</link>
+        <link>https://kris0325.github.io/p/image-gallery/</link>
         <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/image-gallery/</guid>
-        <description>&lt;img src="https://example.com/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/image-gallery/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
@@ -13921,10 +13921,10 @@ Hugo - Quick Start&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/image-gallery/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://kris0325.github.io/p/image-gallery/1.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;1400&#34;
-	srcset=&#34;https://example.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://example.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://kris0325.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://kris0325.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 1&#34;
@@ -13934,10 +13934,10 @@ Hugo - Quick Start&lt;/p&gt;
 		data-flex-grow=&#34;142&#34;
 		data-flex-basis=&#34;342px&#34;
 	
-&gt; &lt;img src=&#34;https://example.com/p/image-gallery/2.jpg&#34;
+&gt; &lt;img src=&#34;https://kris0325.github.io/p/image-gallery/2.jpg&#34;
 	width=&#34;1500&#34;
 	height=&#34;2250&#34;
-	srcset=&#34;https://example.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://example.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://kris0325.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://kris0325.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 2&#34;
@@ -13958,11 +13958,11 @@ Hugo - Quick Start&lt;/p&gt;
         </item>
         <item>
         <title>Shortcodes</title>
-        <link>https://example.com/p/shortcodes/</link>
+        <link>https://kris0325.github.io/p/shortcodes/</link>
         <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/shortcodes/</guid>
-        <description>&lt;img src="https://example.com/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;hr&gt;
+        <guid>https://kris0325.github.io/p/shortcodes/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -13972,19 +13972,19 @@ Hugo - Quick Start&lt;/p&gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>https://example.com/archives/</link>
+        <link>https://kris0325.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://kris0325.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
-        <link>https://example.com/p/markdown-syntax-guide/</link>
+        <link>https://kris0325.github.io/p/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="https://example.com/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>https://kris0325.github.io/p/markdown-syntax-guide/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
@@ -14210,10 +14210,10 @@ Hugo - Quick Start&lt;/p&gt;
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>https://example.com/p/math-typesetting/</link>
+        <link>https://kris0325.github.io/p/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/math-typesetting/</guid>
+        <guid>https://kris0325.github.io/p/math-typesetting/</guid>
         <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
@@ -14251,10 +14251,10 @@ $$&lt;/p&gt;</description>
         </item>
         <item>
         <title>About</title>
-        <link>https://example.com/about/</link>
+        <link>https://kris0325.github.io/about/</link>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/about/</guid>
+        <guid>https://kris0325.github.io/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -14279,10 +14279,10 @@ $$&lt;/p&gt;</description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://example.com/links/</link>
+        <link>https://kris0325.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://kris0325.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -14314,10 +14314,10 @@ $$&lt;/p&gt;</description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://example.com/search/</link>
+        <link>https://kris0325.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://kris0325.github.io/search/</guid>
         <description></description>
         </item>
         

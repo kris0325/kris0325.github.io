@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Greedy Algorithm on thatkrisyang</title>
-        <link>https://example.com/tags/greedy-algorithm/</link>
+        <link>https://kris0325.github.io/tags/greedy-algorithm/</link>
         <description>Recent content in Greedy Algorithm on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/greedy-algorithm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/greedy-algorithm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>greedy algorithm</title>
-        <link>https://example.com/p/greedy-algorithm/</link>
+        <link>https://kris0325.github.io/p/greedy-algorithm/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/greedy-algorithm/</guid>
-        <description>&lt;img src="https://example.com/p/greedy-algorithm/greedy.png" alt="Featured image of post greedy algorithm" /&gt;&lt;img src=&#34;./greedyAlgorithm.png&#34; name=&#34;greedyAlgorithm&#34;&gt;
+        <guid>https://kris0325.github.io/p/greedy-algorithm/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/greedy-algorithm/greedy.png" alt="Featured image of post greedy algorithm" /&gt;&lt;img src=&#34;./greedyAlgorithm.png&#34; name=&#34;greedyAlgorithm&#34;&gt;
 &lt;h1 id=&#34;什么是贪心&#34;&gt;什么是贪心&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;贪心的本质是选择每一阶段的局部最优，从而达到全局最优。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;贪心的套路什么时候用贪心&#34;&gt;贪心的套路（什么时候用贪心）&lt;/h1&gt;

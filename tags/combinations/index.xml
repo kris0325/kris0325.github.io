@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Combinations on thatkrisyang</title>
-        <link>https://example.com/tags/combinations/</link>
+        <link>https://kris0325.github.io/tags/combinations/</link>
         <description>Recent content in Combinations on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/combinations/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/combinations/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>784.Letter Case Permutation</title>
-        <link>https://example.com/p/784.letter-case-permutation/</link>
+        <link>https://kris0325.github.io/p/784.letter-case-permutation/</link>
         <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/784.letter-case-permutation/</guid>
-        <description>&lt;img src="https://example.com/p/784.letter-case-permutation/784.jpg" alt="Featured image of post 784.Letter Case Permutation" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/784.letter-case-permutation/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/784.letter-case-permutation/784.jpg" alt="Featured image of post 784.Letter Case Permutation" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -213,11 +213,11 @@
         </item>
         <item>
         <title>17.letter-combinations-of-a-phone-number</title>
-        <link>https://example.com/p/17.letter-combinations-of-a-phone-number/</link>
+        <link>https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/17.letter-combinations-of-a-phone-number/</guid>
-        <description>&lt;img src="https://example.com/p/17.letter-combinations-of-a-phone-number/17.png" alt="Featured image of post 17.letter-combinations-of-a-phone-number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/17.letter-combinations-of-a-phone-number/17.png" alt="Featured image of post 17.letter-combinations-of-a-phone-number" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -447,10 +447,10 @@
         </item>
         <item>
         <title>39.combination-sum</title>
-        <link>https://example.com/p/39.combination-sum/</link>
+        <link>https://kris0325.github.io/p/39.combination-sum/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/39.combination-sum/</guid>
+        <guid>https://kris0325.github.io/p/39.combination-sum/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -787,10 +787,10 @@
         </item>
         <item>
         <title>40.combination-sum-ii</title>
-        <link>https://example.com/p/40.combination-sum-ii/</link>
+        <link>https://kris0325.github.io/p/40.combination-sum-ii/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/40.combination-sum-ii/</guid>
+        <guid>https://kris0325.github.io/p/40.combination-sum-ii/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -1029,10 +1029,10 @@
         </item>
         <item>
         <title>77.combinations</title>
-        <link>https://example.com/p/77.combinations/</link>
+        <link>https://kris0325.github.io/p/77.combinations/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/77.combinations/</guid>
+        <guid>https://kris0325.github.io/p/77.combinations/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -1255,10 +1255,10 @@
         </item>
         <item>
         <title>78.subsets</title>
-        <link>https://example.com/p/78.subsets/</link>
+        <link>https://kris0325.github.io/p/78.subsets/</link>
         <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/78.subsets/</guid>
+        <guid>https://kris0325.github.io/p/78.subsets/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hugo Blog on thatkrisyang</title>
-        <link>https://example.com/tags/hugo-blog/</link>
+        <link>https://kris0325.github.io/tags/hugo-blog/</link>
         <description>Recent content in Hugo Blog on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/hugo-blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/hugo-blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>如何用 GitHub Pages &#43; Hugo 搭建个人博客</title>
-        <link>https://example.com/p/hello-world/</link>
+        <link>https://kris0325.github.io/p/hello-world/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/hello-world/</guid>
-        <description>&lt;img src="https://example.com/p/hello-world/fall.jpg" alt="Featured image of post 如何用 GitHub Pages &#43; Hugo 搭建个人博客" /&gt;&lt;h1 id=&#34;如何用-github-pages--hugo-搭建个人博客&#34;&gt;如何用 GitHub Pages + Hugo 搭建个人博客&lt;/h1&gt;
+        <guid>https://kris0325.github.io/p/hello-world/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/hello-world/fall.jpg" alt="Featured image of post 如何用 GitHub Pages &#43; Hugo 搭建个人博客" /&gt;&lt;h1 id=&#34;如何用-github-pages--hugo-搭建个人博客&#34;&gt;如何用 GitHub Pages + Hugo 搭建个人博客&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/#1-%E6%A6%82%E5%BF%B5%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/#1-%E6%A6%82%E5%BF%B5%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83&lt;/a&gt;&lt;/p&gt;

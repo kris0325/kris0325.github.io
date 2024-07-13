@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Binary-Search on thatkrisyang</title>
-        <link>https://example.com/tags/binary-search/</link>
+        <link>https://kris0325.github.io/tags/binary-search/</link>
         <description>Recent content in Binary-Search on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/binary-search/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/binary-search/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>209. Minimum Size Subarray Sum</title>
-        <link>https://example.com/p/209.-minimum-size-subarray-sum/</link>
+        <link>https://kris0325.github.io/p/209.-minimum-size-subarray-sum/</link>
         <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/209.-minimum-size-subarray-sum/</guid>
-        <description>&lt;img src="https://example.com/p/209.-minimum-size-subarray-sum/209.png" alt="Featured image of post 209. Minimum Size Subarray Sum" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/209.-minimum-size-subarray-sum/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/209.-minimum-size-subarray-sum/209.png" alt="Featured image of post 209. Minimum Size Subarray Sum" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Permutations on thatkrisyang</title>
-        <link>https://example.com/tags/permutations/</link>
+        <link>https://kris0325.github.io/tags/permutations/</link>
         <description>Recent content in Permutations on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/permutations/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/permutations/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>46.Permutations</title>
-        <link>https://example.com/p/46.permutations/</link>
+        <link>https://kris0325.github.io/p/46.permutations/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/46.permutations/</guid>
-        <description>&lt;img src="https://example.com/p/46.permutations/46.jpg" alt="Featured image of post 46.Permutations" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <guid>https://kris0325.github.io/p/46.permutations/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/46.permutations/46.jpg" alt="Featured image of post 46.Permutations" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
@@ -253,11 +253,11 @@
         </item>
         <item>
         <title>47.Permutations-ii</title>
-        <link>https://example.com/p/47.permutations-ii/</link>
+        <link>https://kris0325.github.io/p/47.permutations-ii/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/47.permutations-ii/</guid>
-        <description>&lt;img src="https://example.com/p/47.permutations-ii/47.jpg" alt="Featured image of post 47.Permutations-ii" /&gt;&lt;blockquote&gt;
+        <guid>https://kris0325.github.io/p/47.permutations-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/47.permutations-ii/47.jpg" alt="Featured image of post 47.Permutations-ii" /&gt;&lt;blockquote&gt;
 &lt;p&gt;思路：这个解决方案结合了Permutations和Subsets II的思想。当输入数组中存在重复元素时，我们首先对输入数组进行排序，然后只有在以下情况下选择元素：它是第一个要选择的元素，它与前一个元素不同，或者它与前一个元素相同，但前一个元素也已经被选择。其余的解决方案遵循与没有重复元素的排列相同的逻辑，具有相同的时间和空间复杂度。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

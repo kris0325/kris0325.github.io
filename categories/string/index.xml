@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>String on thatkrisyang</title>
-        <link>https://example.com/categories/string/</link>
+        <link>https://kris0325.github.io/categories/string/</link>
         <description>Recent content in String on thatkrisyang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/string/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/categories/string/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>20. Valid Parentheses</title>
-        <link>https://example.com/p/20.-valid-parentheses/</link>
+        <link>https://kris0325.github.io/p/20.-valid-parentheses/</link>
         <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/20.-valid-parentheses/</guid>
-        <description>&lt;img src="https://example.com/p/20.-valid-parentheses/20.png" alt="Featured image of post 20. Valid Parentheses" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-parentheses/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/20.-valid-parentheses/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/20.-valid-parentheses/20.png" alt="Featured image of post 20. Valid Parentheses" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/valid-parentheses/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/valid-parentheses/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -203,11 +203,11 @@
         </item>
         <item>
         <title>151. Reverse Words in a String</title>
-        <link>https://example.com/p/151.-reverse-words-in-a-string/</link>
+        <link>https://kris0325.github.io/p/151.-reverse-words-in-a-string/</link>
         <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/151.-reverse-words-in-a-string/</guid>
-        <description>&lt;img src="https://example.com/p/151.-reverse-words-in-a-string/151.png" alt="Featured image of post 151. Reverse Words in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-words-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/151.-reverse-words-in-a-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/151.-reverse-words-in-a-string/151.png" alt="Featured image of post 151. Reverse Words in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-words-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-words-in-a-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;相同類型：
@@ -531,11 +531,11 @@
         </item>
         <item>
         <title>28. Find the Index of the First Occurrence in a String</title>
-        <link>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
+        <link>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</link>
         <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
-        <description>&lt;img src="https://example.com/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.png" alt="Featured image of post 28. Find the Index of the First Occurrence in a String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -667,11 +667,11 @@
         </item>
         <item>
         <title>344. Reverse String</title>
-        <link>https://example.com/p/344.-reverse-string/</link>
+        <link>https://kris0325.github.io/p/344.-reverse-string/</link>
         <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/344.-reverse-string/</guid>
-        <description>&lt;img src="https://example.com/p/344.-reverse-string/344.png" alt="Featured image of post 344. Reverse String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/344.-reverse-string/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/344.-reverse-string/344.png" alt="Featured image of post 344. Reverse String" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-string/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -737,11 +737,11 @@
         </item>
         <item>
         <title>541. Reverse String II</title>
-        <link>https://example.com/p/541.-reverse-string-ii/</link>
+        <link>https://kris0325.github.io/p/541.-reverse-string-ii/</link>
         <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/541.-reverse-string-ii/</guid>
-        <description>&lt;img src="https://example.com/p/541.-reverse-string-ii/541.png" alt="Featured image of post 541. Reverse String II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://kris0325.github.io/p/541.-reverse-string-ii/</guid>
+        <description>&lt;img src="https://kris0325.github.io/p/541.-reverse-string-ii/541.png" alt="Featured image of post 541. Reverse String II" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/problems/reverse-string-ii/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://leetcode.com/problems/reverse-string-ii/description/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
