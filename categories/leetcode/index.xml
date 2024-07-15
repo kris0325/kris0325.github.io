@@ -1838,13 +1838,26 @@
 &lt;p&gt;写动规题目，代码出问题很正常！&lt;/p&gt;
 &lt;p&gt;找问题的最好方式就是把dp数组打印出来，看看究竟是不是按照自己思路推导的！&lt;/p&gt;
 &lt;h1 id=&#34;dp-questions-list&#34;&gt;DP Questions List&lt;/h1&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/62.-unique-paths/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;62. Unique Paths&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;63. Unique Paths ii&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/509.-fibonacci-number/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;509.fibonacci-number 斐波那契數列&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/70.-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;70. Climbing Stairs&lt;/a&gt;&lt;/p&gt;
+    &gt;70. Climbing Stairs 70. 爬楼梯&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/746.-min-cost-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;746. Min Cost Climbing Stairs&lt;/a&gt;&lt;/p&gt;
+    &gt;746. Min Cost Climbing Stairs 746.使用最小花费爬楼梯&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/62.-unique-paths/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;62. Unique Paths 不同路徑 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/63.-unique-paths-ii/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;63. Unique Paths II 不同路徑II &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/343.-integerbreak/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;343.IntegerBreak 343. 整数拆分&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/96.uniquebinarysearchtrees/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;96.UniqueBinarySearchTrees 96.不同的二叉搜索树&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/416.partitionequalsubsetsum/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;416.PartitionEqualSubsetSum 416. 分割等和子集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/1049.laststoneweight-ii/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;1049.LastStoneWeight II 1049.最后一块石头的重量II&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/494.-targetsum/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;494. TargetSum 494. 目标和&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
