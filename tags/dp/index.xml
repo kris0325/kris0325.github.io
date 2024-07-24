@@ -3132,8 +3132,10 @@
 &lt;/div&gt;&lt;p&gt;對應題目：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/494.-targetsum/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;494. TargetSum 494. 目标和&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;518.CoinChangeII 518. 零钱兑换 II&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;动态规划：377.组合总和Ⅳ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/518.coinchangeii/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;518.CoinChangeII 518. 零钱兑换 II&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/377.combinationsumiv/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动态规划：377.组合总和Ⅳ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/70.-climbing-stairs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;动态规划：70. 爬楼梯进阶版（完全背包)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;問背包裝滿最大價值&lt;/strong&gt;&lt;/p&gt;
@@ -3146,7 +3148,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;對應題目：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;动态规划：474.一和零&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/474.onesandzeroes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动态规划：474.一和零&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;問裝滿背包的所需物品的最小個數&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -3157,8 +3160,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;對應題目：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;动态规划：322.零钱兑换&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;动态规划：279.完全平方数&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/322.coinchange/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动态规划：322.零钱兑换&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kris0325.github.io/p/279.perfectsquares/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动态规划：279.完全平方数&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;背包遍歷順序&#34;&gt;背包遍歷順序&lt;/h2&gt;
 &lt;h3 id=&#34;01背包-1&#34;&gt;01背包&lt;/h3&gt;
 &lt;p&gt;在动态规划：关于01背包问题，你该了解这些！ 中我们讲解二维dp数组01背包先遍历物品还是先遍历背包都是可以的，且第二层for循环是从小到大遍历。&lt;/p&gt;
