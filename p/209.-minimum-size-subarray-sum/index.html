@@ -10,7 +10,7 @@
 <meta property='og:description' content='209. Minimum Size Subarray Sum'>
 <meta property='og:url' content='https://kris0325.github.io/p/209.-minimum-size-subarray-sum/'>
 <meta property='og:site_name' content='thatkrisyang'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='array' /><meta property='article:tag' content='two-pointers' /><meta property='article:tag' content='binary-search' /><meta property='article:published_time' content='2024-03-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-03-25T00:00:00&#43;00:00'/><meta property='og:image' content='https://kris0325.github.io/p/209.-minimum-size-subarray-sum/209.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='array' /><meta property='article:tag' content='two-pointers' /><meta property='article:tag' content='binary-search' /><meta property='article:tag' content='sliding window' /><meta property='article:published_time' content='2024-03-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-03-25T00:00:00&#43;00:00'/><meta property='og:image' content='https://kris0325.github.io/p/209.-minimum-size-subarray-sum/209.png' />
 <meta name="twitter:title" content="209. Minimum Size Subarray Sum">
 <meta name="twitter:description" content="209. Minimum Size Subarray Sum"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://kris0325.github.io/p/209.-minimum-size-subarray-sum/209.png' />
@@ -319,7 +319,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    5 minute read
                 </time>
             </div>
         
@@ -532,6 +532,258 @@
 </span></span><span class="line"><span class="cl">// @lc code=end
 </span></span></code></pre></td></tr></table>
 </div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">英文题目描述
+</span></span><span class="line"><span class="cl">Maximum Average Stock Price
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">The price of Amazon common stock is analyzed over a period of several months.
+</span></span><span class="line"><span class="cl"> A group of k consecutive months is said to be observable if no two months in the group have the same stock price. 
+</span></span><span class="line"><span class="cl"> In other words, all the prices in the period are distinct. 
+</span></span><span class="line"><span class="cl"> The sum of stock prices of an observable group of months is called the cumulative observable sum.
+</span></span><span class="line"><span class="cl">  Given the price of Amazon stock for n months, find the maximum possible cumulative observable sum among all the observable groups of months.
+</span></span><span class="line"><span class="cl">   If there is no observable group, return -1.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Example
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Input:
+</span></span><span class="line"><span class="cl">stockPrices = [1, 2, 7, 7, 4, 3, 6]
+</span></span><span class="line"><span class="cl">k = 3
+</span></span><span class="line"><span class="cl">Output: 14
+</span></span><span class="line"><span class="cl">中文题目描述
+</span></span><span class="line"><span class="cl">最大平均股票价格
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">亚马逊普通股票的价格在几个月内进行了分析。
+</span></span><span class="line"><span class="cl">如果一组连续的k个月没有两个月份的股票价格相同，则称该组是可观测的。
+</span></span><span class="line"><span class="cl">换句话说，该期间内所有价格都是不同的。一组可观测月份的股票价格总和称为累计可观测总和。
+</span></span><span class="line"><span class="cl">给定亚马逊股票几个月的价格，找出所有可观测月份组中可能的最大累计可观测总和。
+</span></span><span class="line"><span class="cl">如果没有可观测组，则返回-1。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.HashSet</span><span class="p">;</span><span class="c1">//sliding window question：滑動窗口 + hashset維護數組，保證沒有重複元素， 更新求和</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">maximumConsecutiveStockPrice</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">arr</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">start</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">HashSet</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">stockSet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashSet</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">currentSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">maxSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="n">1</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">arr</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">arr</span><span class="p">.</span><span class="na">length</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="o">-</span><span class="n">1</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">end</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">arr</span><span class="p">.</span><span class="na">length</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//發現重複元素時，循環移除arr[start]元素，並向右移動start指針，直到當前子數組沒有重複元素</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">stockSet</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="n">arr</span><span class="o">[</span><span class="n">end</span><span class="o">]</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">stockSet</span><span class="p">.</span><span class="na">remove</span><span class="p">(</span><span class="n">arr</span><span class="o">[</span><span class="n">start</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">currentSum</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">arr</span><span class="o">[</span><span class="n">start</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">start</span><span class="o">++</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//移動end，加入子數組</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">currentSum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">arr</span><span class="o">[</span><span class="n">end</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">stockSet</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">arr</span><span class="o">[</span><span class="n">end</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">end</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">start</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="c1">//子數組滿足k時，更新maxSum，同時向右移動窗口一步</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">maxSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">max</span><span class="p">(</span><span class="n">maxSum</span><span class="p">,</span><span class="w"> </span><span class="n">currentSum</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">stockSet</span><span class="p">.</span><span class="na">remove</span><span class="p">(</span><span class="n">arr</span><span class="o">[</span><span class="n">start</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">start</span><span class="o">++</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">end</span><span class="o">++</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">maxSum</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Get</span> <span class="n">Minimum</span> <span class="n">Boxes</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">The</span> <span class="n">supply</span> <span class="n">chain</span> <span class="n">manager</span> <span class="n">at</span> <span class="n">one</span> <span class="n">of</span> <span class="n">Amazon</span><span class="s1">&#39;s warehouses is shipping the last container of the day. All n boxes have been loaded into the truck with their sizes represented in the array boxes. The truck may not have enough capacity to store all the boxes though, so some of the boxes may have to be unloaded. The remaining boxes must satisfy the condition max(boxes) ≤ capacity * min(boxes).</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Given</span> <span class="n">the</span> <span class="n">array</span><span class="p">,</span> <span class="n">boxes</span><span class="p">,</span> <span class="ow">and</span> <span class="n">capacity</span><span class="p">,</span> <span class="n">find</span> <span class="n">the</span> <span class="n">minimum</span> <span class="n">number</span> <span class="n">of</span> <span class="n">boxes</span> <span class="n">that</span> <span class="n">need</span> <span class="n">to</span> <span class="n">be</span> <span class="n">unloaded</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Function</span> <span class="n">Description</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Complete</span> <span class="n">the</span> <span class="n">function</span> <span class="n">getMinimumBoxes</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">editor</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">getMinimumBoxes</span> <span class="n">has</span> <span class="n">the</span> <span class="n">following</span> <span class="n">parameters</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mf">1.</span> <span class="ne">int</span><span class="p">[]</span> <span class="n">boxes</span><span class="p">:</span> <span class="n">an</span> <span class="n">array</span> <span class="n">of</span> <span class="n">integers</span> <span class="n">representing</span> <span class="n">the</span> <span class="n">sizes</span> <span class="n">of</span> <span class="n">the</span> <span class="n">boxes</span>
+</span></span><span class="line"><span class="cl"><span class="mf">2.</span> <span class="ne">int</span> <span class="n">capacity</span><span class="p">:</span> <span class="n">the</span> <span class="n">capacity</span> <span class="n">of</span> <span class="n">the</span> <span class="n">truck</span>
+</span></span><span class="line"><span class="cl"><span class="n">Returns</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="ne">int</span><span class="p">:</span> <span class="n">the</span> <span class="n">minimum</span> <span class="n">number</span> <span class="n">of</span> <span class="n">boxes</span> <span class="n">that</span> <span class="n">need</span> <span class="n">to</span> <span class="n">be</span> <span class="n">unloaded</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Example</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl"><span class="ne">Input</span><span class="p">:</span>  <span class="n">boxes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="n">capacity</span> <span class="o">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl"><span class="n">Output</span><span class="p">:</span> <span class="mi">1</span> 
+</span></span><span class="line"><span class="cl"><span class="n">Explanation</span><span class="p">:</span> <span class="n">remove</span> <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//greedy </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//sliding window</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// max(boxes) ≤ capacity * min(boxes)的物理意义：</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//capacity：一个预定的容量系数，在某些情况下，可能需要确保重量分布较为均匀，以避免某些箱子过重而其他箱子过轻。公式 max(boxes) ≤ capacity * min(boxes) 强制要求最大的箱子重量不超过最小箱子重量的 capacity 倍，这样就可以控制各个箱子之间的重量差异，避免出现重量差异过大的情况。</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// 1 运输为平衡负载方便搬运与运输，</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// 2 优化利用空间重量size差异过大会导致空间利用率不高，</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// 3 安全性：在某些应用场景下，过重的箱子可能会带来安全隐患，</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//  通过这个公式可以确保每个箱子的重量在合理范围内。</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//先排序，排序后，才能方便的高效的计算箱子最大值和最小值的比值，如何和capacity比较</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//greedy question：</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// 局部最优选择：在排序后，每次选择当前窗口中最大的子数组，确保最大值和最小值的比值不超过 capacity。我们不断调整窗口的大小来找到最优的局部解。</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//全局最优目标：通过不断调整窗口来寻找所有可能的子数组，最终找到需要卸载最少箱子的方案。</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Arrays</span><span class="p">;</span><span class="c1">// 求最大maxBox/minBox  &lt; capacity,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">getMinimumBoxes</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">boxes</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">capacity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">boxes</span><span class="p">.</span><span class="na">length</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">minUpload</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//1.排序：首先对箱子的尺寸数组排序</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Arrays</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">boxes</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//2.滑动窗口:使用双指针来來找滿足條件的最大子數組</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">length</span><span class="p">;</span><span class="w"> </span><span class="n">right</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">boxes</span><span class="o">[</span><span class="n">right</span><span class="o">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">capacity</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">boxes</span><span class="o">[</span><span class="n">left</span><span class="o">]</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="c1">//1.不滿足條件時，left指針右移動，upload左邊的箱子</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">left</span><span class="o">++</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//2.滿足條件，每次都更新計算子數組的最小upload數，然後right指針右移動，load增加箱子</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//minUpload = min(minUpload,左邊upload的箱子+右邊upload的箱子數)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//3.計算中更新最小卸載數量</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">minUpload</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">min</span><span class="p">(</span><span class="n">minUpload</span><span class="p">,</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">right</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">minUpload</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
 </div>
 </section>
 
@@ -545,6 +797,8 @@
             <a href="/tags/two-pointers/">Two-Pointers</a>
         
             <a href="/tags/binary-search/">Binary-Search</a>
+        
+            <a href="/tags/sliding-window/">Sliding Window</a>
         
     </section>
 
@@ -575,6 +829,30 @@
     <h2 class="section-title">Related content</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/28.-find-the-index-of-the-first-occurrence-in-a-string/">
+        
+        
+            <div class="article-image">
+                <img src="/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.dfe7cf9494bba8f8cab3f42625fbf6f0_hud97b491a9f638fe86f3a609aa163e872_18321669_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 28. Find the Index of the First Occurrence in a String"
+                        data-key="28. Find the Index of the First Occurrence in a String" 
+                        data-hash="md5-3&#43;fPlJS7qPjKs/QmJfv28A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">28. Find the Index of the First Occurrence in a String</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="has-image">
@@ -626,6 +904,30 @@
             
                 
 <article class="has-image">
+    <a href="/p/sliding-window/">
+        
+        
+            <div class="article-image">
+                <img src="/p/sliding-window/slidingwindow.238ea9b9971bcd1a333b087055fbadab_hu3e420579256556e7f4490ac51407afed_13257199_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post sliding window"
+                        data-key="sliding window" 
+                        data-hash="md5-I46puZcbzRozOwhwVfutqw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">sliding window</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/20.-valid-parentheses/">
         
         
@@ -643,54 +945,6 @@
 
         <div class="article-details">
             <h2 class="article-title">20. Valid Parentheses</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/151.-reverse-words-in-a-string/">
-        
-        
-            <div class="article-image">
-                <img src="/p/151.-reverse-words-in-a-string/151.efb2a838d964f0ec444370a9493cc700_hua62bcbcf9a79dfe26d0875c8d67438b3_8789011_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 151. Reverse Words in a String"
-                        data-key="151. Reverse Words in a String" 
-                        data-hash="md5-77KoONlk8OxEQ3CpSTzHAA==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">151. Reverse Words in a String</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/28.-find-the-index-of-the-first-occurrence-in-a-string/">
-        
-        
-            <div class="article-image">
-                <img src="/p/28.-find-the-index-of-the-first-occurrence-in-a-string/28.dfe7cf9494bba8f8cab3f42625fbf6f0_hud97b491a9f638fe86f3a609aa163e872_18321669_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 28. Find the Index of the First Occurrence in a String"
-                        data-key="28. Find the Index of the First Occurrence in a String" 
-                        data-hash="md5-3&#43;fPlJS7qPjKs/QmJfv28A==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">28. Find the Index of the First Occurrence in a String</h2>
         </div>
     </a>
 </article>
