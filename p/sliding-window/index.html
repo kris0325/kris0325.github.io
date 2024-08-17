@@ -334,7 +334,15 @@
     <section class="article-content">
     
     
-    <div class="highlight"><div class="chroma">
+    <h1 id="什麼是滑動窗口-sliding-window">什麼是滑動窗口 Sliding Window？</h1>
+<p>滑動窗口算法，可以用於解決數組，字符串等子元素問題，它可以將嵌套的循環問題轉化為單循環問題，降低時間複雜度。</p>
+<h1 id="如何識別滑動窗口算法題型">如何識別滑動窗口算法題型？</h1>
+<p>1.連續的元素，例如String， Subarray，LinkedList
+2.min, max, longest,shortest, keyword</p>
+<p><strong>注意：和回溯算法問題區分，回溯問題一般是求有多少種組合，排列，
+而滑動窗口是最大，最小，最長</strong></p>
+<h1 id="算法模板">算法模板</h1>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -360,11 +368,9 @@
 </span><span class="lnt">22
 </span><span class="lnt">23
 </span><span class="lnt">24
-</span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.HashMap</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//滑動窗口模板（進，出，算）</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//滑動窗口模板（進，出，算）</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">lengthOfLongestSubstringKDistinct</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//map表示當前滑動窗口</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Map</span><span class="o">&lt;</span><span class="n">Character</span><span class="p">,</span><span class="w"> </span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
@@ -389,6 +395,31 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">result</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> 
 </span></span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="leetcode題單">leetcode題單</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">3.Longest Substring Without Repeating Characters
+</span></span><span class="line"><span class="cl">159. Longest Substring with At Most Two Distinct Characters
+</span></span><span class="line"><span class="cl">340.Longest Substring with At Most K Distinct Characters
+</span></span><span class="line"><span class="cl">395.Longest Substring With At Least K Repeating Characters
+</span></span><span class="line"><span class="cl">424.Longest Repeating Character Replacement
+</span></span><span class="line"><span class="cl">209.Minimum Size Subarray Sum
+</span></span><span class="line"><span class="cl">76.Minimum Window Substring
+</span></span><span class="line"><span class="cl">992.SubarraysWithKDifferentIntegers
+</span></span><span class="line"><span class="cl">1248.CountNumberOfNiceSubarrays
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><a class="link" href="https://docs.google.com/spreadsheets/d/1TovJdSfOYzjvczAjuC1BEtsYRzosvfC3iY6gQN_4Tyc/edit?usp=sharing"  target="_blank" rel="noopener"
     >sliding window 滑動窗口</a></p>
@@ -482,6 +513,30 @@
             
                 
 <article class="has-image">
+    <a href="/p/scan-line-algorithm/">
+        
+        
+            <div class="article-image">
+                <img src="/p/scan-line-algorithm/ScanLineAlgorithm.6bc4dec55b486ecbde090bcd1e041833_hu2cefcc0dcd4c7d7946f3cd7f7865d7d6_6846902_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Scan Line Algorithm"
+                        data-key="Scan Line Algorithm" 
+                        data-hash="md5-a8TexVtIbsveCQvNHgQYMw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Scan Line Algorithm</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/binary-tree/">
         
         
@@ -523,30 +578,6 @@
 
         <div class="article-details">
             <h2 class="article-title">Binary Tree Traversal</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/dynamic-programming/">
-        
-        
-            <div class="article-image">
-                <img src="/p/dynamic-programming/dp.f998adf8863185db16ca1ab04f0d207d_hu9e4d42e7b662aed23c21ed54101cd43c_18405628_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post dynamic programming"
-                        data-key="dynamic programming" 
-                        data-hash="md5-&#43;Zit&#43;IYxhdsWyhqwTw0gfQ==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">dynamic programming</h2>
         </div>
     </a>
 </article>

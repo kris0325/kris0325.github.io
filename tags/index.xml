@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>thatkrisyang</copyright>
-        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kris0325.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Scan Line Algorithm</title>
+        <link>https://kris0325.github.io/tags/scan-line-algorithm/</link>
+        <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://kris0325.github.io/tags/scan-line-algorithm/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Sliding Window</title>
         <link>https://kris0325.github.io/tags/sliding-window/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
