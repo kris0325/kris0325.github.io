@@ -13,7 +13,7 @@
         <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>https://kris0325.github.io/p/scan-line-algorithm/</guid>
-        <description>&lt;img src="https://kris0325.github.io/p/scan-line-algorithm/ScanLineAlgorithm.png" alt="Featured image of post Scan Line Algorithm" /&gt;&lt;h1 id=&#34;什麼是掃描線&#34;&gt;什麼是掃描線&lt;/h1&gt;
+        <description>&lt;img src="https://kris0325.github.io/p/scan-line-algorithm/1.png" alt="Featured image of post Scan Line Algorithm" /&gt;&lt;h1 id=&#34;什麼是掃描線&#34;&gt;什麼是掃描線&lt;/h1&gt;
 &lt;p&gt;以“391.同時在天上的飛機最大數量”問題為例&lt;/p&gt;
 &lt;p&gt;思路1:暴力掃描
 遍歷每一時刻，檢測每個時刻有多少飛機&lt;/p&gt;
